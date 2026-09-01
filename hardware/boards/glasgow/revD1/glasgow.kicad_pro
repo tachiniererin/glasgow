@@ -541,7 +541,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "glasgow_revD0.kicad_pro",
+    "filename": "glasgow.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -839,18 +839,18 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "glasgow_revD0.kicad_sch",
-        "name": "glasgow_revD0",
+        "filename": "glasgow.kicad_sch",
+        "name": "glasgow",
         "uuid": "87a94d88-8a34-4311-9666-80951c15f2c0"
       }
     ],
-    "used_designators": "D120-121,#PWR19,#PWR45,#PWR221,#PWR407-412,R252-265",
+    "used_designators": "C224-228,D120-121,Y3-4,#PWR19,#PWR45,#PWR221,#PWR407-419,R252-266",
     "variants": []
   },
   "sheets": [
     [
       "87a94d88-8a34-4311-9666-80951c15f2c0",
-      "glasgow_revD0"
+      "glasgow"
     ],
     [
       "a5e88344-fdb6-4c20-9130-aa68340ce6df",

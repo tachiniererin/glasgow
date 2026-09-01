@@ -7532,7 +7532,7 @@
 		)
 		(column_widths 10.16 12.7 16.51)
 		(row_heights 2.54 2.54 2.54 2.54 2.54 2.54 2.54 2.54 2.54 2.54 2.54 2.54
-			2.54 2.54 2.54 2.54 2.54 2.54
+			2.54 2.54 2.54 2.54 2.54 2.54 2.54
 		)
 		(uuid "f077ee79-9eb8-4739-8f41-da4ed28df6de")
 		(cells
@@ -8454,6 +8454,57 @@
 				)
 				(uuid "53286a32-74a1-4354-81b2-a99996a85c32")
 			)
+			(table_cell "1100000"
+				(exclude_from_sim no)
+				(at 173.99 102.87 0)
+				(size 10.16 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "66cf5c1f-cea2-47b7-8791-cde88d682ee6")
+			)
+			(table_cell "Si5351"
+				(exclude_from_sim no)
+				(at 184.15 102.87 0)
+				(size 12.7 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "ecb74cb9-390f-4c76-a155-74addf3ed239")
+			)
+			(table_cell ""
+				(exclude_from_sim no)
+				(at 196.85 102.87 0)
+				(size 16.51 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "592ed791-1761-4739-903c-6f298441a604")
+			)
 		)
 	)
 	(label "PG_{VBUS}"
@@ -9347,7 +9398,7 @@
 			(uuid "2df648c6-a4ee-478b-b85d-fb21a80afd61")
 		)
 		(instances
-			(project "glasgow_revD0"
+			(project "glasgow"
 				(path "/87a94d88-8a34-4311-9666-80951c15f2c0"
 					(reference "TP1")
 					(unit 1)
@@ -9435,7 +9486,7 @@
 			(uuid "f7d8ea3f-135c-4668-bbc8-6f9ecd40d48c")
 		)
 		(instances
-			(project "glasgow_revD0"
+			(project "glasgow"
 				(path "/87a94d88-8a34-4311-9666-80951c15f2c0"
 					(reference "TP2")
 					(unit 1)
@@ -9513,7 +9564,7 @@
 			(uuid "6548db28-164d-4f30-84dc-c4f9828d39bb")
 		)
 		(instances
-			(project "glasgow_revD0"
+			(project "glasgow"
 				(path "/87a94d88-8a34-4311-9666-80951c15f2c0"
 					(reference "#PWR02")
 					(unit 1)
@@ -9628,7 +9679,7 @@
 			(uuid "59192daf-0039-4099-a71a-899c7244cda9")
 		)
 		(instances
-			(project "glasgow_revD0"
+			(project "glasgow"
 				(path "/87a94d88-8a34-4311-9666-80951c15f2c0"
 					(reference "C2")
 					(unit 1)
@@ -9706,7 +9757,7 @@
 			(uuid "9eab5176-4843-4d9b-a80e-5bcb5e6371ba")
 		)
 		(instances
-			(project "glasgow_revD0"
+			(project "glasgow"
 				(path "/87a94d88-8a34-4311-9666-80951c15f2c0"
 					(reference "#PWR015")
 					(unit 1)
@@ -9784,7 +9835,7 @@
 			(uuid "9bef6fcf-6efb-445a-a859-22ae12dde3f0")
 		)
 		(instances
-			(project "glasgow_revD0"
+			(project "glasgow"
 				(path "/87a94d88-8a34-4311-9666-80951c15f2c0"
 					(reference "#PWR05")
 					(unit 1)
@@ -9908,7 +9959,7 @@
 			(uuid "4bdc80bd-fc91-424a-91a2-eea9aee16b7e")
 		)
 		(instances
-			(project "glasgow_revD0"
+			(project "glasgow"
 				(path "/87a94d88-8a34-4311-9666-80951c15f2c0"
 					(reference "D5")
 					(unit 1)
@@ -10024,7 +10075,7 @@
 			(uuid "0f664b42-3be8-425f-9f7e-5cbcbf7a1223")
 		)
 		(instances
-			(project "glasgow_revD0"
+			(project "glasgow"
 				(path "/87a94d88-8a34-4311-9666-80951c15f2c0"
 					(reference "R21")
 					(unit 1)
@@ -10103,7 +10154,7 @@
 			(uuid "26e84943-0a91-446a-abce-efc1352fc6a7")
 		)
 		(instances
-			(project "glasgow_revD0"
+			(project "glasgow"
 				(path "/87a94d88-8a34-4311-9666-80951c15f2c0"
 					(reference "#PWR024")
 					(unit 1)
@@ -10181,7 +10232,7 @@
 			(uuid "1a0996f8-747b-47f2-bf93-87f211a48123")
 		)
 		(instances
-			(project "glasgow_revD0"
+			(project "glasgow"
 				(path "/87a94d88-8a34-4311-9666-80951c15f2c0"
 					(reference "#PWR03")
 					(unit 1)
@@ -10306,7 +10357,7 @@
 			(uuid "09f4fc15-78e4-468d-8e25-a60b31d152a3")
 		)
 		(instances
-			(project "glasgow_revD0"
+			(project "glasgow"
 				(path "/87a94d88-8a34-4311-9666-80951c15f2c0"
 					(reference "R3")
 					(unit 1)
@@ -10383,7 +10434,7 @@
 			(uuid "9e5cf54c-1dac-4138-8202-ef9783c1eb5e")
 		)
 		(instances
-			(project "glasgow_revD0"
+			(project "glasgow"
 				(path "/87a94d88-8a34-4311-9666-80951c15f2c0"
 					(reference "#PWR07")
 					(unit 1)
@@ -10460,7 +10511,7 @@
 			(uuid "9add05aa-9021-4071-9bfc-d2c53da95026")
 		)
 		(instances
-			(project "glasgow_revD0"
+			(project "glasgow"
 				(path "/87a94d88-8a34-4311-9666-80951c15f2c0"
 					(reference "#PWR08")
 					(unit 1)
@@ -10586,7 +10637,7 @@
 			(uuid "67be2a5c-9b9f-4e9f-95e2-6b1d397c24ea")
 		)
 		(instances
-			(project "glasgow_revD0"
+			(project "glasgow"
 				(path "/87a94d88-8a34-4311-9666-80951c15f2c0"
 					(reference "R8")
 					(unit 1)
@@ -10866,7 +10917,7 @@
 			(uuid "85a2a467-698c-42d6-8330-5f4bdcaa0f99")
 		)
 		(instances
-			(project "glasgow_revD0"
+			(project "glasgow"
 				(path "/87a94d88-8a34-4311-9666-80951c15f2c0"
 					(reference "U2")
 					(unit 1)
@@ -10958,7 +11009,7 @@
 			(uuid "01984c27-2059-416b-a17b-22b9f34bc713")
 		)
 		(instances
-			(project "glasgow_revD0"
+			(project "glasgow"
 				(path "/87a94d88-8a34-4311-9666-80951c15f2c0"
 					(reference "NT1")
 					(unit 1)
@@ -11085,7 +11136,7 @@
 			(uuid "a822319d-61ad-4f35-994b-85b5ee36f3cc")
 		)
 		(instances
-			(project "glasgow_revD0"
+			(project "glasgow"
 				(path "/87a94d88-8a34-4311-9666-80951c15f2c0"
 					(reference "R7")
 					(unit 1)
@@ -11200,7 +11251,7 @@
 			(uuid "baf767fa-bb8a-4f94-b457-c769a477a994")
 		)
 		(instances
-			(project "glasgow_revD0"
+			(project "glasgow"
 				(path "/87a94d88-8a34-4311-9666-80951c15f2c0"
 					(reference "R15")
 					(unit 1)
@@ -11315,7 +11366,7 @@
 			(uuid "092f1b87-c654-480c-bbbb-1f3727acabf6")
 		)
 		(instances
-			(project "glasgow_revD0"
+			(project "glasgow"
 				(path "/87a94d88-8a34-4311-9666-80951c15f2c0"
 					(reference "R19")
 					(unit 1)
@@ -11392,7 +11443,7 @@
 			(uuid "0341f1a9-1f15-49fb-9329-1aea19a38b8b")
 		)
 		(instances
-			(project "glasgow_revD0"
+			(project "glasgow"
 				(path "/87a94d88-8a34-4311-9666-80951c15f2c0"
 					(reference "#PWR013")
 					(unit 1)
@@ -11517,7 +11568,7 @@
 			(uuid "eb5f5608-19b7-4f75-b082-a5b87c737297")
 		)
 		(instances
-			(project "glasgow_revD0"
+			(project "glasgow"
 				(path "/87a94d88-8a34-4311-9666-80951c15f2c0"
 					(reference "R4")
 					(unit 1)
@@ -11596,7 +11647,7 @@
 			(uuid "b401c2c3-e774-49b4-b532-599a3d618143")
 		)
 		(instances
-			(project "glasgow_revD0"
+			(project "glasgow"
 				(path "/87a94d88-8a34-4311-9666-80951c15f2c0"
 					(reference "#PWR0407")
 					(unit 1)
@@ -11711,7 +11762,7 @@
 			(uuid "0b00500c-3702-4cfc-8a4d-352343abf988")
 		)
 		(instances
-			(project "glasgow_revD0"
+			(project "glasgow"
 				(path "/87a94d88-8a34-4311-9666-80951c15f2c0"
 					(reference "R17")
 					(unit 1)
@@ -11790,7 +11841,7 @@
 			(uuid "de887bb7-2c2c-4419-bf14-f568648c89e5")
 		)
 		(instances
-			(project "glasgow_revD0"
+			(project "glasgow"
 				(path "/87a94d88-8a34-4311-9666-80951c15f2c0"
 					(reference "#PWR027")
 					(unit 1)
@@ -11869,7 +11920,7 @@
 			(uuid "c3c66a0f-34bc-4683-bb1d-f9c364bda0dc")
 		)
 		(instances
-			(project "glasgow_revD0"
+			(project "glasgow"
 				(path "/87a94d88-8a34-4311-9666-80951c15f2c0"
 					(reference "#PWR025")
 					(unit 1)
@@ -11947,7 +11998,7 @@
 			(uuid "4a3acace-5c6a-44b0-8315-169bb9945396")
 		)
 		(instances
-			(project "glasgow_revD0"
+			(project "glasgow"
 				(path "/87a94d88-8a34-4311-9666-80951c15f2c0"
 					(reference "#PWR028")
 					(unit 1)
@@ -12038,7 +12089,7 @@
 			(uuid "fd079775-b947-419e-bbea-7c0bb998ede0")
 		)
 		(instances
-			(project "glasgow_revD0"
+			(project "glasgow"
 				(path "/87a94d88-8a34-4311-9666-80951c15f2c0"
 					(reference "H1")
 					(unit 1)
@@ -12153,7 +12204,7 @@
 			(uuid "c61a61cd-b552-4a23-9081-8628edc67f6a")
 		)
 		(instances
-			(project "glasgow_revD0"
+			(project "glasgow"
 				(path "/87a94d88-8a34-4311-9666-80951c15f2c0"
 					(reference "R14")
 					(unit 1)
@@ -12230,7 +12281,7 @@
 			(uuid "95fbfef4-dc1a-4b1f-82cc-e885ffea9919")
 		)
 		(instances
-			(project "glasgow_revD0"
+			(project "glasgow"
 				(path "/87a94d88-8a34-4311-9666-80951c15f2c0"
 					(reference "#PWR011")
 					(unit 1)
@@ -12321,7 +12372,7 @@
 			(uuid "8361e1b6-abce-4780-a853-6f66a2672242")
 		)
 		(instances
-			(project "glasgow_revD0"
+			(project "glasgow"
 				(path "/87a94d88-8a34-4311-9666-80951c15f2c0"
 					(reference "H2")
 					(unit 1)
@@ -12437,7 +12488,7 @@
 			(uuid "27fa47ea-afa6-468c-b115-04d0bbb7d3a4")
 		)
 		(instances
-			(project "glasgow_revD0"
+			(project "glasgow"
 				(path "/87a94d88-8a34-4311-9666-80951c15f2c0"
 					(reference "R11")
 					(unit 1)
@@ -12561,7 +12612,7 @@
 			(uuid "3b4afb27-4a25-44cd-a6f8-d19a5a069744")
 		)
 		(instances
-			(project "glasgow_revD0"
+			(project "glasgow"
 				(path "/87a94d88-8a34-4311-9666-80951c15f2c0"
 					(reference "D2")
 					(unit 1)
@@ -12640,7 +12691,7 @@
 			(uuid "f5885563-8e08-44f1-865a-3af3991aea70")
 		)
 		(instances
-			(project "glasgow_revD0"
+			(project "glasgow"
 				(path "/87a94d88-8a34-4311-9666-80951c15f2c0"
 					(reference "#PWR010")
 					(unit 1)
@@ -12756,7 +12807,7 @@
 			(uuid "b34b166c-33de-4d57-8e51-ddf56f5a4925")
 		)
 		(instances
-			(project "glasgow_revD0"
+			(project "glasgow"
 				(path "/87a94d88-8a34-4311-9666-80951c15f2c0"
 					(reference "R10")
 					(unit 1)
@@ -12835,7 +12886,7 @@
 			(uuid "7526b41b-8a4d-49e9-a46a-ad2b580622cd")
 		)
 		(instances
-			(project "glasgow_revD0"
+			(project "glasgow"
 				(path "/87a94d88-8a34-4311-9666-80951c15f2c0"
 					(reference "#PWR026")
 					(unit 1)
@@ -12926,7 +12977,7 @@
 			(uuid "e0fb2ccd-93eb-4740-983c-84db82777d0d")
 		)
 		(instances
-			(project "glasgow_revD0"
+			(project "glasgow"
 				(path "/87a94d88-8a34-4311-9666-80951c15f2c0"
 					(reference "H4")
 					(unit 1)
@@ -13041,7 +13092,7 @@
 			(uuid "e517e2fc-fedb-4ef0-bbad-3770936caec0")
 		)
 		(instances
-			(project "glasgow_revD0"
+			(project "glasgow"
 				(path "/87a94d88-8a34-4311-9666-80951c15f2c0"
 					(reference "C4")
 					(unit 1)
@@ -13165,7 +13216,7 @@
 			(uuid "4a2cfbe5-9eb6-4c07-9d7d-edead469ebb1")
 		)
 		(instances
-			(project "glasgow_revD0"
+			(project "glasgow"
 				(path "/87a94d88-8a34-4311-9666-80951c15f2c0"
 					(reference "D4")
 					(unit 1)
@@ -13287,7 +13338,7 @@
 			(uuid "6cc14d00-857b-4e15-91ae-44a234f53bc8")
 		)
 		(instances
-			(project "glasgow_revD0"
+			(project "glasgow"
 				(path "/87a94d88-8a34-4311-9666-80951c15f2c0"
 					(reference "Y1")
 					(unit 1)
@@ -13364,7 +13415,7 @@
 			(uuid "a00f48e9-a769-4e87-a601-ca79a064777b")
 		)
 		(instances
-			(project "glasgow_revD0"
+			(project "glasgow"
 				(path "/87a94d88-8a34-4311-9666-80951c15f2c0"
 					(reference "#PWR022")
 					(unit 1)
@@ -13479,7 +13530,7 @@
 			(uuid "f8b52082-24b1-409f-98d9-e2bf4d20c89e")
 		)
 		(instances
-			(project "glasgow_revD0"
+			(project "glasgow"
 				(path "/87a94d88-8a34-4311-9666-80951c15f2c0"
 					(reference "C1")
 					(unit 1)
@@ -13557,7 +13608,7 @@
 			(uuid "185fdbcb-6934-4b7b-b7c7-c560cbd5b627")
 		)
 		(instances
-			(project "glasgow_revD0"
+			(project "glasgow"
 				(path "/87a94d88-8a34-4311-9666-80951c15f2c0"
 					(reference "#PWR016")
 					(unit 1)
@@ -13672,7 +13723,7 @@
 			(uuid "e790014f-a6cd-47dd-b8f4-1e37bc37a08d")
 		)
 		(instances
-			(project "glasgow_revD0"
+			(project "glasgow"
 				(path "/87a94d88-8a34-4311-9666-80951c15f2c0"
 					(reference "C8")
 					(unit 1)
@@ -13750,7 +13801,7 @@
 			(uuid "00ca67c1-87a5-424d-8570-d8e27419b014")
 		)
 		(instances
-			(project "glasgow_revD0"
+			(project "glasgow"
 				(path "/87a94d88-8a34-4311-9666-80951c15f2c0"
 					(reference "#PWR04")
 					(unit 1)
@@ -13828,7 +13879,7 @@
 			(uuid "327c666d-cb6c-4e63-b516-d6a5c942e84d")
 		)
 		(instances
-			(project "glasgow_revD0"
+			(project "glasgow"
 				(path "/87a94d88-8a34-4311-9666-80951c15f2c0"
 					(reference "#PWR020")
 					(unit 1)
@@ -13906,7 +13957,7 @@
 			(uuid "8e718f21-e30b-4a10-90b8-52cdb20e7f7a")
 		)
 		(instances
-			(project "glasgow_revD0"
+			(project "glasgow"
 				(path "/87a94d88-8a34-4311-9666-80951c15f2c0"
 					(reference "#PWR018")
 					(unit 1)
@@ -14030,7 +14081,7 @@
 			(uuid "4b260834-1916-4802-9cb9-2254c843bc92")
 		)
 		(instances
-			(project "glasgow_revD0"
+			(project "glasgow"
 				(path "/87a94d88-8a34-4311-9666-80951c15f2c0"
 					(reference "D1")
 					(unit 1)
@@ -14121,7 +14172,7 @@
 			(uuid "0de427ad-5b55-4b65-af04-ad7063e6dc22")
 		)
 		(instances
-			(project "glasgow_revD0"
+			(project "glasgow"
 				(path "/87a94d88-8a34-4311-9666-80951c15f2c0"
 					(reference "H3")
 					(unit 1)
@@ -14236,7 +14287,7 @@
 			(uuid "b7766a6c-2068-484a-ae2d-1dd5868f1831")
 		)
 		(instances
-			(project "glasgow_revD0"
+			(project "glasgow"
 				(path "/87a94d88-8a34-4311-9666-80951c15f2c0"
 					(reference "C5")
 					(unit 1)
@@ -14349,7 +14400,7 @@
 			(uuid "01dd1513-da01-4e71-aeb3-25a74774a38e")
 		)
 		(instances
-			(project "glasgow_revD0"
+			(project "glasgow"
 				(path "/87a94d88-8a34-4311-9666-80951c15f2c0"
 					(reference "C11")
 					(unit 1)
@@ -14490,7 +14541,7 @@
 			(uuid "22f72850-32f7-40bb-8745-2b67a9d9b3b2")
 		)
 		(instances
-			(project "glasgow_revD0"
+			(project "glasgow"
 				(path "/87a94d88-8a34-4311-9666-80951c15f2c0"
 					(reference "U1")
 					(unit 1)
@@ -14614,7 +14665,7 @@
 			(uuid "bc980649-5443-459c-8da2-21f8fe99a1f5")
 		)
 		(instances
-			(project "glasgow_revD0"
+			(project "glasgow"
 				(path "/87a94d88-8a34-4311-9666-80951c15f2c0"
 					(reference "D3")
 					(unit 1)
@@ -14729,7 +14780,7 @@
 			(uuid "c1517d38-2d65-4cb5-a223-61b3576af6f3")
 		)
 		(instances
-			(project "glasgow_revD0"
+			(project "glasgow"
 				(path "/87a94d88-8a34-4311-9666-80951c15f2c0"
 					(reference "C6")
 					(unit 1)
@@ -14816,7 +14867,7 @@
 			)
 		)
 		(instances
-			(project "glasgow_revD0"
+			(project "glasgow"
 				(path "/87a94d88-8a34-4311-9666-80951c15f2c0"
 					(reference "G1")
 					(unit 1)
@@ -14894,7 +14945,7 @@
 			(uuid "e4e8d7a8-6b3f-4ed5-b377-5bb7f77b2db5")
 		)
 		(instances
-			(project "glasgow_revD0"
+			(project "glasgow"
 				(path "/87a94d88-8a34-4311-9666-80951c15f2c0"
 					(reference "#PWR06")
 					(unit 1)
@@ -15009,7 +15060,7 @@
 			(uuid "a7f87ee7-2461-4c3c-b13e-f85b5b6f5f6c")
 		)
 		(instances
-			(project "glasgow_revD0"
+			(project "glasgow"
 				(path "/87a94d88-8a34-4311-9666-80951c15f2c0"
 					(reference "R20")
 					(unit 1)
@@ -15136,7 +15187,7 @@
 			(uuid "4b5d0d35-5268-4860-ac06-1156f78f7e72")
 		)
 		(instances
-			(project "glasgow_revD0"
+			(project "glasgow"
 				(path "/87a94d88-8a34-4311-9666-80951c15f2c0"
 					(reference "U3")
 					(unit 1)
@@ -15251,7 +15302,7 @@
 			(uuid "5e3bedf7-5e08-4f6a-b2cb-fe891825d689")
 		)
 		(instances
-			(project "glasgow_revD0"
+			(project "glasgow"
 				(path "/87a94d88-8a34-4311-9666-80951c15f2c0"
 					(reference "R18")
 					(unit 1)
@@ -15328,7 +15379,7 @@
 			(uuid "1b89690f-f888-4781-abe5-f32e877e3cd2")
 		)
 		(instances
-			(project "glasgow_revD0"
+			(project "glasgow"
 				(path "/87a94d88-8a34-4311-9666-80951c15f2c0"
 					(reference "#PWR021")
 					(unit 1)
@@ -15443,7 +15494,7 @@
 			(uuid "bfb778f3-2231-472c-9d4d-fbf82f60fdc7")
 		)
 		(instances
-			(project "glasgow_revD0"
+			(project "glasgow"
 				(path "/87a94d88-8a34-4311-9666-80951c15f2c0"
 					(reference "C7")
 					(unit 1)
@@ -15558,7 +15609,7 @@
 			(uuid "5fd7fc20-aa05-4839-a9b5-0239316db7c6")
 		)
 		(instances
-			(project "glasgow_revD0"
+			(project "glasgow"
 				(path "/87a94d88-8a34-4311-9666-80951c15f2c0"
 					(reference "C3")
 					(unit 1)
@@ -15637,7 +15688,7 @@
 			(uuid "e892219e-a19b-4b15-9c86-0910de229260")
 		)
 		(instances
-			(project "glasgow_revD0"
+			(project "glasgow"
 				(path "/87a94d88-8a34-4311-9666-80951c15f2c0"
 					(reference "#PWR012")
 					(unit 1)
@@ -15762,7 +15813,7 @@
 			(uuid "474ad701-092e-4a2b-95b8-4813488ae336")
 		)
 		(instances
-			(project "glasgow_revD0"
+			(project "glasgow"
 				(path "/87a94d88-8a34-4311-9666-80951c15f2c0"
 					(reference "R5")
 					(unit 1)
@@ -15888,7 +15939,7 @@
 			(uuid "ef8a9a86-6935-4a85-82b1-d15e96342d18")
 		)
 		(instances
-			(project "glasgow_revD0"
+			(project "glasgow"
 				(path "/87a94d88-8a34-4311-9666-80951c15f2c0"
 					(reference "C9")
 					(unit 1)
@@ -16001,7 +16052,7 @@
 			(uuid "9b35d2d4-8c1f-49f9-a11e-a52a6d470af2")
 		)
 		(instances
-			(project "glasgow_revD0"
+			(project "glasgow"
 				(path "/87a94d88-8a34-4311-9666-80951c15f2c0"
 					(reference "R254")
 					(unit 1)
@@ -16117,7 +16168,7 @@
 			(uuid "9d97e458-eecd-44cf-b865-af7ade70c775")
 		)
 		(instances
-			(project "glasgow_revD0"
+			(project "glasgow"
 				(path "/87a94d88-8a34-4311-9666-80951c15f2c0"
 					(reference "R12")
 					(unit 1)
@@ -16242,7 +16293,7 @@
 			(uuid "10959230-29de-4112-99bf-bad1fa80b095")
 		)
 		(instances
-			(project "glasgow_revD0"
+			(project "glasgow"
 				(path "/87a94d88-8a34-4311-9666-80951c15f2c0"
 					(reference "R1")
 					(unit 1)
@@ -16320,7 +16371,7 @@
 			(uuid "670080d3-1136-4623-b90b-4697bced736d")
 		)
 		(instances
-			(project "glasgow_revD0"
+			(project "glasgow"
 				(path "/87a94d88-8a34-4311-9666-80951c15f2c0"
 					(reference "#PWR01")
 					(unit 1)
@@ -16446,7 +16497,7 @@
 			(uuid "0f4517e6-b65e-436b-958c-63f70a92cf42")
 		)
 		(instances
-			(project "glasgow_revD0"
+			(project "glasgow"
 				(path "/87a94d88-8a34-4311-9666-80951c15f2c0"
 					(reference "C12")
 					(unit 1)
@@ -16551,7 +16602,7 @@
 			(uuid "f841fc2a-c3cf-46db-b445-5db1d4f4da35")
 		)
 		(instances
-			(project "glasgow_revD0"
+			(project "glasgow"
 				(path "/87a94d88-8a34-4311-9666-80951c15f2c0"
 					(reference "R6")
 					(unit 1)
@@ -16629,7 +16680,7 @@
 			(uuid "81e8b67e-99f4-4822-a0dd-bacc6c93b36a")
 		)
 		(instances
-			(project "glasgow_revD0"
+			(project "glasgow"
 				(path "/87a94d88-8a34-4311-9666-80951c15f2c0"
 					(reference "#PWR017")
 					(unit 1)
@@ -16708,7 +16759,7 @@
 			(uuid "4007d913-0869-461e-a0e2-d40a9f8e637c")
 		)
 		(instances
-			(project "glasgow_revD0"
+			(project "glasgow"
 				(path "/87a94d88-8a34-4311-9666-80951c15f2c0"
 					(reference "#PWR09")
 					(unit 1)
@@ -16785,7 +16836,7 @@
 			(uuid "2961878e-c8d3-47d3-8636-b225564b2864")
 		)
 		(instances
-			(project "glasgow_revD0"
+			(project "glasgow"
 				(path "/87a94d88-8a34-4311-9666-80951c15f2c0"
 					(reference "#PWR014")
 					(unit 1)
@@ -16898,7 +16949,7 @@
 			(uuid "86ad439b-732f-46d4-9de9-8e81502773c6")
 		)
 		(instances
-			(project "glasgow_revD0"
+			(project "glasgow"
 				(path "/87a94d88-8a34-4311-9666-80951c15f2c0"
 					(reference "R13")
 					(unit 1)
@@ -17023,7 +17074,7 @@
 			(uuid "224c618d-2c26-419b-97a6-3e8c123411ce")
 		)
 		(instances
-			(project "glasgow_revD0"
+			(project "glasgow"
 				(path "/87a94d88-8a34-4311-9666-80951c15f2c0"
 					(reference "R2")
 					(unit 1)
@@ -17138,7 +17189,7 @@
 			(uuid "868f1a38-e6df-4497-b594-8500592feb69")
 		)
 		(instances
-			(project "glasgow_revD0"
+			(project "glasgow"
 				(path "/87a94d88-8a34-4311-9666-80951c15f2c0"
 					(reference "R16")
 					(unit 1)
@@ -17253,7 +17304,7 @@
 			(uuid "39d44e66-e42a-4f8d-b153-cb9a74a1686a")
 		)
 		(instances
-			(project "glasgow_revD0"
+			(project "glasgow"
 				(path "/87a94d88-8a34-4311-9666-80951c15f2c0"
 					(reference "R9")
 					(unit 1)
@@ -17366,7 +17417,7 @@
 			(uuid "6a48516b-f856-4ca1-bbfa-76dbe63a3814")
 		)
 		(instances
-			(project "glasgow_revD0"
+			(project "glasgow"
 				(path "/87a94d88-8a34-4311-9666-80951c15f2c0"
 					(reference "C10")
 					(unit 1)
@@ -17443,7 +17494,7 @@
 			(uuid "57ca2985-1b02-483d-9bf1-afd67be7f1c8")
 		)
 		(instances
-			(project "glasgow_revD0"
+			(project "glasgow"
 				(path "/87a94d88-8a34-4311-9666-80951c15f2c0"
 					(reference "#PWR023")
 					(unit 1)
@@ -17650,7 +17701,7 @@
 			)
 		)
 		(instances
-			(project "glasgow_revD0"
+			(project "glasgow"
 				(path "/87a94d88-8a34-4311-9666-80951c15f2c0"
 					(page "3")
 				)
@@ -17815,7 +17866,7 @@
 			)
 		)
 		(instances
-			(project "glasgow_revD0"
+			(project "glasgow"
 				(path "/87a94d88-8a34-4311-9666-80951c15f2c0"
 					(page "7")
 				)
@@ -17951,7 +18002,7 @@
 			)
 		)
 		(instances
-			(project "glasgow_revD0"
+			(project "glasgow"
 				(path "/87a94d88-8a34-4311-9666-80951c15f2c0"
 					(page "6")
 				)
@@ -18037,7 +18088,7 @@
 			)
 		)
 		(instances
-			(project "glasgow_revD0"
+			(project "glasgow"
 				(path "/87a94d88-8a34-4311-9666-80951c15f2c0"
 					(page "4")
 				)
@@ -18143,7 +18194,7 @@
 			)
 		)
 		(instances
-			(project "glasgow_revD0"
+			(project "glasgow"
 				(path "/87a94d88-8a34-4311-9666-80951c15f2c0"
 					(page "2")
 				)
