@@ -601,7 +601,7 @@
 				)
 			)
 			(property "Description" "Unpolarized capacitor, small symbol"
-				(at 0 0 0)
+				(at 0 -10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -651,7 +651,7 @@
 						(xy -1.524 -0.508) (xy 1.524 -0.508)
 					)
 					(stroke
-						(width 0.3302)
+						(width 0.3048)
 						(type default)
 					)
 					(fill
@@ -14401,7 +14401,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:VQFN-64-1EP_9x9mm_P0.5mm_EP7.15x7.15mm"
+		(property "Footprint" "Package_DFN_QFN:VQFN-64-1EP_9x9mm_P0.5mm_EP7.15x7.15mm_ThermalVias"
 			(at 170.18 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -14412,7 +14412,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.nxp.com/docs/en/data-sheet/NAFE11388.pdf"
+		(property "Datasheet" "https://www.nxp.com/docs/en/data-sheet/NAFE73388.pdf"
 			(at 170.18 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -14423,7 +14423,7 @@
 				)
 			)
 		)
-		(property "Description" "Highly Configurable 8/4 Channel 24/16 bits ±25 V Universal Input Analog Front-End"
+		(property "Description" "Highly Configurable 8/4 Channel 24/16 bits ±25 V Universal Input Analog Front-End with Excitation Sources"
 			(at 170.18 58.42 0)
 			(hide yes)
 			(show_name no)

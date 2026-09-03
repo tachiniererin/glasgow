@@ -135,6 +135,129 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:TestPoint_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint_Small"
+				(at 0 2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TestPoint_Small_0_1"
+				(circle
+					(center 0 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_Small_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 0)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C_Small"
 			(pin_numbers
 				(hide yes)
@@ -193,7 +316,7 @@
 				)
 			)
 			(property "Description" "Unpolarized capacitor, small symbol"
-				(at 0 0 0)
+				(at 0 -10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -243,7 +366,7 @@
 						(xy -1.524 -0.508) (xy 1.524 -0.508)
 					)
 					(stroke
-						(width 0.3302)
+						(width 0.3048)
 						(type default)
 					)
 					(fill
@@ -1066,29 +1189,27 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U2"
-				(at 2.1433 53.34 0)
+			(property "Reference" "U"
+				(at -13.97 49.53 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Value" "CY7C68013A-56LTX"
-				(at 2.1433 50.8 0)
+				(at 11.43 49.53 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Footprint" "Package_DFN_QFN:QFN-56-1EP_8x8mm_P0.5mm_EP4.5x5.2mm"
+			(property "Footprint" "Package_DFN_QFN:QFN-56-1EP_8x8mm_P0.5mm_EP4.5x5.2mm_ThermalVias_TopTented"
 				(at 0 -59.69 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1111,83 +1232,6 @@
 				)
 			)
 			(property "Description" "CYPRESS FX2LP USB Microcontroller, 48MHz 8051, 16KB RAM, USB 2.0, I2C, QFN-56"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Alt_MPN1" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Alt_MPN2" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Alt_MPN3" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Alt_MPN4" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "KLC_S4.1" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC" "C476253"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MPN" "CBM9002A-56ILG"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1342,7 +1386,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at -5.08 50.8 270)
 					(length 2.54)
 					(hide yes)
@@ -1524,7 +1568,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 0 50.8 270)
 					(length 2.54)
 					(hide yes)
@@ -1706,7 +1750,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 0 50.8 270)
 					(length 2.54)
 					(hide yes)
@@ -1798,7 +1842,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 0 50.8 270)
 					(length 2.54)
 					(hide yes)
@@ -1998,7 +2042,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 0 50.8 270)
 					(length 2.54)
 					(hide yes)
@@ -2216,7 +2260,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 0 50.8 270)
 					(length 2.54)
 					(hide yes)
@@ -4163,6 +4207,12 @@
 		(uuid "e16000b8-ddc9-4122-ad39-549e29250fdc")
 	)
 	(junction
+		(at 237.49 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e3c9be75-aed7-4768-8cbd-5ded9b662dad")
+	)
+	(junction
 		(at 92.71 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4189,10 +4239,6 @@
 	(no_connect
 		(at 113.03 177.8)
 		(uuid "1ca187dc-ac7b-4679-848d-88e420724c7b")
-	)
-	(no_connect
-		(at 67.31 96.52)
-		(uuid "a4c12c03-fc0e-4bd2-8f34-ceb038ae6cc0")
 	)
 	(no_connect
 		(at 92.71 177.8)
@@ -4644,6 +4690,16 @@
 	)
 	(wire
 		(pts
+			(xy 180.34 31.75) (xy 194.31 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ff20333-ea8c-4837-8bb4-e33e7afe9b9d")
+	)
+	(wire
+		(pts
 			(xy 110.49 128.27) (xy 110.49 127)
 		)
 		(stroke
@@ -4681,6 +4737,16 @@
 			(type default)
 		)
 		(uuid "12878a69-947c-41be-b126-d2c25a84fa2c")
+	)
+	(wire
+		(pts
+			(xy 180.34 30.48) (xy 180.34 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1353da28-7a24-4ea5-8f3a-57701a6095e5")
 	)
 	(bus
 		(pts
@@ -4864,6 +4930,16 @@
 	)
 	(wire
 		(pts
+			(xy 180.34 34.29) (xy 194.31 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a1fb984-cbba-427c-9eee-c068538219e8")
+	)
+	(wire
+		(pts
 			(xy 21.59 25.4) (xy 21.59 24.13)
 		)
 		(stroke
@@ -4994,16 +5070,6 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 31.75) (xy 194.31 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "34d3aa99-4530-4d2f-86ef-d50bb89f971e")
-	)
-	(wire
-		(pts
 			(xy 138.43 30.48) (xy 147.32 30.48)
 		)
 		(stroke
@@ -5011,16 +5077,6 @@
 			(type default)
 		)
 		(uuid "35874c44-1e9d-48e2-8f2a-1aba5c41ab0a")
-	)
-	(wire
-		(pts
-			(xy 138.43 101.6) (xy 151.13 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3765b3bc-a4e7-4f9c-b830-53dc33d76473")
 	)
 	(wire
 		(pts
@@ -5124,7 +5180,7 @@
 	)
 	(bus
 		(pts
-			(xy 269.24 104.14) (xy 270.51 102.87)
+			(xy 269.24 105.41) (xy 270.51 104.14)
 		)
 		(stroke
 			(width 0)
@@ -5224,6 +5280,16 @@
 	)
 	(wire
 		(pts
+			(xy 237.49 81.28) (xy 248.92 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "426d2b40-a365-46ec-978f-f91084e1235b")
+	)
+	(wire
+		(pts
 			(xy 232.41 118.11) (xy 248.92 118.11)
 		)
 		(stroke
@@ -5282,6 +5348,16 @@
 		)
 		(uuid "46c09653-ece3-44d1-97ba-17d5d7c120e9")
 	)
+	(wire
+		(pts
+			(xy 72.39 96.52) (xy 80.01 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49a8fc44-c03e-410c-983d-1f16f55538e7")
+	)
 	(bus
 		(pts
 			(xy 149.86 27.94) (xy 151.13 26.67)
@@ -5301,6 +5377,16 @@
 			(type default)
 		)
 		(uuid "4a4136a2-d1fc-43b6-8188-b09771b25165")
+	)
+	(wire
+		(pts
+			(xy 237.49 81.28) (xy 237.49 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4aa4b423-1e28-4f6b-8616-f58e4a2024e2")
 	)
 	(bus
 		(pts
@@ -5524,6 +5610,16 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 101.6) (xy 151.13 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6213afdc-c37e-4aa2-a79c-7df3edf0b8ab")
+	)
+	(wire
+		(pts
 			(xy 158.75 177.8) (xy 158.75 179.07)
 		)
 		(stroke
@@ -5554,7 +5650,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 99.06) (xy 165.1 99.06)
+			(xy 157.48 99.06) (xy 160.02 99.06)
 		)
 		(stroke
 			(width 0)
@@ -5864,6 +5960,16 @@
 	)
 	(wire
 		(pts
+			(xy 220.98 77.47) (xy 237.49 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a20bbd6-041d-4367-b2cb-d24176310ee6")
+	)
+	(wire
+		(pts
 			(xy 270.51 154.94) (xy 270.51 156.21)
 		)
 		(stroke
@@ -5881,6 +5987,16 @@
 			(type default)
 		)
 		(uuid "7a3cc51f-205b-4496-bf6f-43c68019df12")
+	)
+	(wire
+		(pts
+			(xy 154.94 77.47) (xy 162.56 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a52808b-b9d2-48fe-9cf3-87389ea63b96")
 	)
 	(wire
 		(pts
@@ -6014,6 +6130,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 82.55) (xy 162.56 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87a64ce9-74f9-42cd-b402-d09c4610d432")
+	)
+	(wire
+		(pts
 			(xy 243.84 105.41) (xy 248.92 105.41)
 		)
 		(stroke
@@ -6074,6 +6200,16 @@
 	)
 	(wire
 		(pts
+			(xy 64.77 96.52) (xy 67.31 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cde3abd-1d6e-4eb0-8268-507b5d610421")
+	)
+	(wire
+		(pts
 			(xy 95.25 104.14) (xy 95.25 109.22)
 		)
 		(stroke
@@ -6084,7 +6220,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 81.28) (xy 248.92 81.28)
+			(xy 226.06 81.28) (xy 237.49 81.28)
 		)
 		(stroke
 			(width 0)
@@ -6101,16 +6237,6 @@
 			(type default)
 		)
 		(uuid "8fba9cee-9764-493b-852d-02a0137c789a")
-	)
-	(wire
-		(pts
-			(xy 181.61 34.29) (xy 194.31 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8fd8ef68-7844-482d-a18f-fdc4c2118aff")
 	)
 	(wire
 		(pts
@@ -6904,6 +7030,16 @@
 	)
 	(wire
 		(pts
+			(xy 180.34 35.56) (xy 180.34 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd7245cf-8a67-47fd-b793-c7fa13b682c8")
+	)
+	(wire
+		(pts
 			(xy 149.86 58.42) (xy 138.43 58.42)
 		)
 		(stroke
@@ -6951,16 +7087,6 @@
 			(type default)
 		)
 		(uuid "d36d3df3-2aab-43bc-b3ce-b18526018c35")
-	)
-	(bus
-		(pts
-			(xy 269.24 105.41) (xy 269.24 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d37bcc4c-44ce-44ee-ae04-2303e3053b72")
 	)
 	(wire
 		(pts
@@ -7204,16 +7330,6 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 96.52) (xy 67.31 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e5dfc073-ad4e-4063-a72e-fd52e07d7fcc")
-	)
-	(wire
-		(pts
 			(xy 147.32 170.18) (xy 148.59 170.18)
 		)
 		(stroke
@@ -7454,7 +7570,7 @@
 	)
 	(bus
 		(pts
-			(xy 270.51 102.87) (xy 270.51 59.69)
+			(xy 270.51 104.14) (xy 270.51 59.69)
 		)
 		(stroke
 			(width 0)
@@ -7532,13 +7648,13 @@
 		)
 		(column_widths 10.16 12.7 16.51)
 		(row_heights 2.54 2.54 2.54 2.54 2.54 2.54 2.54 2.54 2.54 2.54 2.54 2.54
-			2.54 2.54 2.54 2.54 2.54 2.54 2.54
+			2.54 2.54 2.54 2.54 2.54 2.54 2.54 2.54
 		)
 		(uuid "f077ee79-9eb8-4739-8f41-da4ed28df6de")
 		(cells
 			(table_cell "I²C"
 				(exclude_from_sim no)
-				(at 173.99 57.15 0)
+				(at 173.99 53.34 0)
 				(size 39.37 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 3 1)
@@ -7555,7 +7671,7 @@
 			)
 			(table_cell "rgb(126, 128, 130)"
 				(exclude_from_sim no)
-				(at 184.15 57.15 0)
+				(at 184.15 53.34 0)
 				(size 12.7 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 0 0)
@@ -7572,7 +7688,7 @@
 			)
 			(table_cell "rgb(126, 128, 130)"
 				(exclude_from_sim no)
-				(at 196.85 57.15 0)
+				(at 196.85 53.34 0)
 				(size 16.51 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 0 0)
@@ -7589,7 +7705,7 @@
 			)
 			(table_cell "Address"
 				(exclude_from_sim no)
-				(at 173.99 59.69 0)
+				(at 173.99 55.88 0)
 				(size 10.16 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -7606,7 +7722,7 @@
 			)
 			(table_cell "Device"
 				(exclude_from_sim no)
-				(at 184.15 59.69 0)
+				(at 184.15 55.88 0)
 				(size 12.7 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -7623,7 +7739,7 @@
 			)
 			(table_cell "Note"
 				(exclude_from_sim no)
-				(at 196.85 59.69 0)
+				(at 196.85 55.88 0)
 				(size 16.51 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -7638,9 +7754,60 @@
 				)
 				(uuid "1a7cef97-8153-4f10-92b3-3d9aa55ba7da")
 			)
+			(table_cell "0001000"
+				(exclude_from_sim no)
+				(at 173.99 58.42 0)
+				(size 10.16 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "cf1c8eb6-2b05-4b12-8d3f-6e72b6b97499")
+			)
+			(table_cell "FPGA"
+				(exclude_from_sim no)
+				(at 184.15 58.42 0)
+				(size 12.7 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "7f2a43f7-5a63-4529-908f-024c48320840")
+			)
+			(table_cell ""
+				(exclude_from_sim no)
+				(at 196.85 58.42 0)
+				(size 16.51 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "1746657a-1ed4-4ee9-ac3b-fafcdbdba199")
+			)
 			(table_cell "0001010"
 				(exclude_from_sim no)
-				(at 173.99 62.23 0)
+				(at 173.99 60.96 0)
 				(size 10.16 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -7657,7 +7824,7 @@
 			)
 			(table_cell "STM32"
 				(exclude_from_sim no)
-				(at 184.15 62.23 0)
+				(at 184.15 60.96 0)
 				(size 12.7 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -7674,7 +7841,7 @@
 			)
 			(table_cell "Application"
 				(exclude_from_sim no)
-				(at 196.85 62.23 0)
+				(at 196.85 60.96 0)
 				(size 16.51 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -7691,7 +7858,7 @@
 			)
 			(table_cell "0001100"
 				(exclude_from_sim no)
-				(at 173.99 64.77 0)
+				(at 173.99 63.5 0)
 				(size 10.16 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -7708,7 +7875,7 @@
 			)
 			(table_cell "SMBus"
 				(exclude_from_sim no)
-				(at 184.15 64.77 0)
+				(at 184.15 63.5 0)
 				(size 12.7 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -7725,7 +7892,7 @@
 			)
 			(table_cell "Alert Response"
 				(exclude_from_sim no)
-				(at 196.85 64.77 0)
+				(at 196.85 63.5 0)
 				(size 16.51 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -7742,7 +7909,7 @@
 			)
 			(table_cell "0100000"
 				(exclude_from_sim no)
-				(at 173.99 67.31 0)
+				(at 173.99 66.04 0)
 				(size 10.16 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -7759,7 +7926,7 @@
 			)
 			(table_cell "PCA"
 				(exclude_from_sim no)
-				(at 184.15 67.31 0)
+				(at 184.15 66.04 0)
 				(size 12.7 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -7776,7 +7943,7 @@
 			)
 			(table_cell "Bank A&C"
 				(exclude_from_sim no)
-				(at 196.85 67.31 0)
+				(at 196.85 66.04 0)
 				(size 16.51 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -7793,7 +7960,7 @@
 			)
 			(table_cell "0100001"
 				(exclude_from_sim no)
-				(at 173.99 69.85 0)
+				(at 173.99 68.58 0)
 				(size 10.16 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -7810,7 +7977,7 @@
 			)
 			(table_cell "PCA"
 				(exclude_from_sim no)
-				(at 184.15 69.85 0)
+				(at 184.15 68.58 0)
 				(size 12.7 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -7827,7 +7994,7 @@
 			)
 			(table_cell "Bank B&D"
 				(exclude_from_sim no)
-				(at 196.85 69.85 0)
+				(at 196.85 68.58 0)
 				(size 16.51 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -7844,7 +8011,7 @@
 			)
 			(table_cell "0100011"
 				(exclude_from_sim no)
-				(at 173.99 72.39 0)
+				(at 173.99 71.12 0)
 				(size 10.16 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -7861,7 +8028,7 @@
 			)
 			(table_cell "FUSB302"
 				(exclude_from_sim no)
-				(at 184.15 72.39 0)
+				(at 184.15 71.12 0)
 				(size 12.7 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -7878,7 +8045,7 @@
 			)
 			(table_cell ""
 				(exclude_from_sim no)
-				(at 196.85 72.39 0)
+				(at 196.85 71.12 0)
 				(size 16.51 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -7895,7 +8062,7 @@
 			)
 			(table_cell "1000111"
 				(exclude_from_sim no)
-				(at 173.99 74.93 0)
+				(at 173.99 73.66 0)
 				(size 10.16 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -7912,7 +8079,7 @@
 			)
 			(table_cell "DAC43204"
 				(exclude_from_sim no)
-				(at 184.15 74.93 0)
+				(at 184.15 73.66 0)
 				(size 12.7 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -7929,7 +8096,7 @@
 			)
 			(table_cell "Broadcast"
 				(exclude_from_sim no)
-				(at 196.85 74.93 0)
+				(at 196.85 73.66 0)
 				(size 16.51 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -7946,7 +8113,7 @@
 			)
 			(table_cell "1001000"
 				(exclude_from_sim no)
-				(at 173.99 77.47 0)
+				(at 173.99 76.2 0)
 				(size 10.16 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -7963,7 +8130,7 @@
 			)
 			(table_cell "DAC43204"
 				(exclude_from_sim no)
-				(at 184.15 77.47 0)
+				(at 184.15 76.2 0)
 				(size 12.7 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -7980,7 +8147,7 @@
 			)
 			(table_cell ""
 				(exclude_from_sim no)
-				(at 196.85 77.47 0)
+				(at 196.85 76.2 0)
 				(size 16.51 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -7997,7 +8164,7 @@
 			)
 			(table_cell "1001001"
 				(exclude_from_sim no)
-				(at 173.99 80.01 0)
+				(at 173.99 78.74 0)
 				(size 10.16 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -8014,7 +8181,7 @@
 			)
 			(table_cell "TMP112"
 				(exclude_from_sim no)
-				(at 184.15 80.01 0)
+				(at 184.15 78.74 0)
 				(size 12.7 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -8031,7 +8198,7 @@
 			)
 			(table_cell ""
 				(exclude_from_sim no)
-				(at 196.85 80.01 0)
+				(at 196.85 78.74 0)
 				(size 16.51 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -8048,7 +8215,7 @@
 			)
 			(table_cell "1001100"
 				(exclude_from_sim no)
-				(at 173.99 82.55 0)
+				(at 173.99 81.28 0)
 				(size 10.16 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -8065,7 +8232,7 @@
 			)
 			(table_cell "INA A"
 				(exclude_from_sim no)
-				(at 184.15 82.55 0)
+				(at 184.15 81.28 0)
 				(size 12.7 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -8082,7 +8249,7 @@
 			)
 			(table_cell ""
 				(exclude_from_sim no)
-				(at 196.85 82.55 0)
+				(at 196.85 81.28 0)
 				(size 16.51 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -8099,7 +8266,7 @@
 			)
 			(table_cell "1001101"
 				(exclude_from_sim no)
-				(at 173.99 85.09 0)
+				(at 173.99 83.82 0)
 				(size 10.16 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -8116,7 +8283,7 @@
 			)
 			(table_cell "INA B"
 				(exclude_from_sim no)
-				(at 184.15 85.09 0)
+				(at 184.15 83.82 0)
 				(size 12.7 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -8133,7 +8300,7 @@
 			)
 			(table_cell ""
 				(exclude_from_sim no)
-				(at 196.85 85.09 0)
+				(at 196.85 83.82 0)
 				(size 16.51 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -8150,7 +8317,7 @@
 			)
 			(table_cell "1001110"
 				(exclude_from_sim no)
-				(at 173.99 87.63 0)
+				(at 173.99 86.36 0)
 				(size 10.16 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -8167,7 +8334,7 @@
 			)
 			(table_cell "INA C"
 				(exclude_from_sim no)
-				(at 184.15 87.63 0)
+				(at 184.15 86.36 0)
 				(size 12.7 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -8184,7 +8351,7 @@
 			)
 			(table_cell ""
 				(exclude_from_sim no)
-				(at 196.85 87.63 0)
+				(at 196.85 86.36 0)
 				(size 16.51 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -8201,7 +8368,7 @@
 			)
 			(table_cell "1001111"
 				(exclude_from_sim no)
-				(at 173.99 90.17 0)
+				(at 173.99 88.9 0)
 				(size 10.16 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -8218,7 +8385,7 @@
 			)
 			(table_cell "INA D"
 				(exclude_from_sim no)
-				(at 184.15 90.17 0)
+				(at 184.15 88.9 0)
 				(size 12.7 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -8235,7 +8402,7 @@
 			)
 			(table_cell ""
 				(exclude_from_sim no)
-				(at 196.85 90.17 0)
+				(at 196.85 88.9 0)
 				(size 16.51 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -8252,7 +8419,7 @@
 			)
 			(table_cell "1010000"
 				(exclude_from_sim no)
-				(at 173.99 92.71 0)
+				(at 173.99 91.44 0)
 				(size 10.16 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -8269,7 +8436,7 @@
 			)
 			(table_cell "FX2"
 				(exclude_from_sim no)
-				(at 184.15 92.71 0)
+				(at 184.15 91.44 0)
 				(size 12.7 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -8286,7 +8453,7 @@
 			)
 			(table_cell "Reserved"
 				(exclude_from_sim no)
-				(at 196.85 92.71 0)
+				(at 196.85 91.44 0)
 				(size 16.51 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -8303,7 +8470,7 @@
 			)
 			(table_cell "1010001"
 				(exclude_from_sim no)
-				(at 173.99 95.25 0)
+				(at 173.99 93.98 0)
 				(size 10.16 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -8320,7 +8487,7 @@
 			)
 			(table_cell "EEPROM"
 				(exclude_from_sim no)
-				(at 184.15 95.25 0)
+				(at 184.15 93.98 0)
 				(size 12.7 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -8337,7 +8504,7 @@
 			)
 			(table_cell ""
 				(exclude_from_sim no)
-				(at 196.85 95.25 0)
+				(at 196.85 93.98 0)
 				(size 16.51 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -8354,7 +8521,7 @@
 			)
 			(table_cell "1010110"
 				(exclude_from_sim no)
-				(at 173.99 97.79 0)
+				(at 173.99 96.52 0)
 				(size 10.16 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -8371,7 +8538,7 @@
 			)
 			(table_cell "STM32 BSL"
 				(exclude_from_sim no)
-				(at 184.15 97.79 0)
+				(at 184.15 96.52 0)
 				(size 12.7 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -8388,7 +8555,7 @@
 			)
 			(table_cell "AN2606"
 				(exclude_from_sim no)
-				(at 196.85 97.79 0)
+				(at 196.85 96.52 0)
 				(size 16.51 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -8405,7 +8572,7 @@
 			)
 			(table_cell "1011001"
 				(exclude_from_sim no)
-				(at 173.99 100.33 0)
+				(at 173.99 99.06 0)
 				(size 10.16 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -8422,7 +8589,7 @@
 			)
 			(table_cell "EEPROM"
 				(exclude_from_sim no)
-				(at 184.15 100.33 0)
+				(at 184.15 99.06 0)
 				(size 12.7 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -8439,7 +8606,7 @@
 			)
 			(table_cell "ID page"
 				(exclude_from_sim no)
-				(at 196.85 100.33 0)
+				(at 196.85 99.06 0)
 				(size 16.51 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -8456,7 +8623,7 @@
 			)
 			(table_cell "1100000"
 				(exclude_from_sim no)
-				(at 173.99 102.87 0)
+				(at 173.99 101.6 0)
 				(size 10.16 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -8473,7 +8640,7 @@
 			)
 			(table_cell "Si5351"
 				(exclude_from_sim no)
-				(at 184.15 102.87 0)
+				(at 184.15 101.6 0)
 				(size 12.7 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -8490,7 +8657,7 @@
 			)
 			(table_cell ""
 				(exclude_from_sim no)
-				(at 196.85 102.87 0)
+				(at 196.85 101.6 0)
 				(size 16.51 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -8697,7 +8864,7 @@
 		)
 		(uuid "2a5f2da1-114b-4420-9c2e-0dfc540612e7")
 	)
-	(label "~{FPGA_RESET}"
+	(label "FPGA_~{RESET}"
 		(at 181.61 31.75 0)
 		(effects
 			(font
@@ -8848,7 +9015,7 @@
 		(uuid "5b59812e-75bf-4e34-91aa-c1eb433ecbd2")
 	)
 	(label "~{ALERT}"
-		(at 165.1 99.06 180)
+		(at 151.13 99.06 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9067,6 +9234,16 @@
 		)
 		(uuid "982afac9-ad7f-49c1-b10a-660b8cb8fa9c")
 	)
+	(label "~{ALERT}"
+		(at 80.01 96.52 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9b9e1372-39af-44a6-aae1-c5f4286bc3de")
+	)
 	(label "XTALOUT"
 		(at 95.25 40.64 0)
 		(effects
@@ -9097,6 +9274,16 @@
 		)
 		(uuid "a609c1e5-dd87-4262-8630-37d1b3c42781")
 	)
+	(label "CLKIF"
+		(at 154.94 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a6f41f90-e1a0-49cc-b729-ea7a224ba97e")
+	)
 	(label "D6"
 		(at 139.7 45.72 0)
 		(effects
@@ -9117,7 +9304,7 @@
 		)
 		(uuid "adad557f-64c5-404c-85c9-af816379b8af")
 	)
-	(label "~{FPGA_RESET}"
+	(label "FPGA_~{RESET}"
 		(at 151.13 101.6 180)
 		(effects
 			(font
@@ -9156,6 +9343,16 @@
 			(justify left bottom)
 		)
 		(uuid "b4bf31cd-356b-4b03-a0f3-810eb94d7401")
+	)
+	(label "CLKREF"
+		(at 154.94 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b5cbf47c-664e-4682-8ff8-38d8f64a29b5")
 	)
 	(label "FPGA_DONE"
 		(at 25.4 143.51 0)
@@ -10443,6 +10640,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 162.56 82.55 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1a76d996-005a-4d8d-9a9d-87e4eeb39c26")
+		(property "Reference" "TP13"
+			(at 163.83 81.2799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CLKREF"
+			(at 163.83 83.8199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 167.64 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 162.56 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dec8f4b9-0e89-48e1-951f-8d52cce3b353")
+		)
+		(instances
+			(project "glasgow"
+				(path "/87a94d88-8a34-4311-9666-80951c15f2c0"
+					(reference "TP13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 78.74 179.07 0)
 		(unit 1)
@@ -10646,6 +10922,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 69.85 96.52 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2f9775b5-a362-4cfd-988b-79fba66b7f6e")
+		(property "Reference" "R267"
+			(at 69.85 99.06 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 69.85 101.6 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 69.85 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 69.85 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "143742ea-9fab-47e6-913b-4b11841b5462")
+		)
+		(pin "2"
+			(uuid "c9ed66d4-31fe-4794-b0ba-dbeee63a8253")
+		)
+		(instances
+			(project "glasgow"
+				(path "/87a94d88-8a34-4311-9666-80951c15f2c0"
+					(reference "R267")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "MCU_Cypress:CY7C68013A-56LTX")
 		(at 120.65 76.2 0)
 		(unit 1)
@@ -10679,7 +11035,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:QFN-56-1EP_8x8mm_P0.5mm_EP4.5x5.2mm"
+		(property "Footprint" "Package_DFN_QFN:QFN-56-1EP_8x8mm_P0.5mm_EP4.5x5.2mm_ThermalVias_TopTented"
 			(at 120.65 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -11577,6 +11933,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 180.34 35.56 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "40dffc61-ca91-44a8-a57b-f6c6a2663269")
+		(property "Reference" "TP26"
+			(at 179.07 34.2899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "FPGA_DONE"
+			(at 179.07 36.8299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 175.26 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 180.34 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ea559b46-0529-4867-97f3-392d5688fb65")
+		)
+		(instances
+			(project "glasgow"
+				(path "/87a94d88-8a34-4311-9666-80951c15f2c0"
+					(reference "TP26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 147.32 168.91 0)
 		(unit 1)
@@ -12092,6 +12528,85 @@
 			(project "glasgow"
 				(path "/87a94d88-8a34-4311-9666-80951c15f2c0"
 					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 160.02 99.06 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "625c6784-89ad-41f0-be9b-0dcaea973df9")
+		(property "Reference" "TP16"
+			(at 161.29 97.7899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~{ALERT}"
+			(at 161.29 100.3299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 160.02 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1b69521b-67ee-45a8-978d-105c3c04d6ea")
+		)
+		(instances
+			(project "glasgow"
+				(path "/87a94d88-8a34-4311-9666-80951c15f2c0"
+					(reference "TP16")
 					(unit 1)
 				)
 			)
@@ -15311,6 +15826,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 180.34 30.48 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b8893b6d-ae4b-40c4-b33e-4dddb3b5aadd")
+		(property "Reference" "TP25"
+			(at 179.07 29.2099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "FPGA_~{RESET}"
+			(at 179.07 31.7499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 175.26 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 180.34 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8ec9d37c-c75b-4fd0-9824-408741757478")
+		)
+		(instances
+			(project "glasgow"
+				(path "/87a94d88-8a34-4311-9666-80951c15f2c0"
+					(reference "TP25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 158.75 156.21 0)
 		(unit 1)
@@ -16055,6 +16650,86 @@
 			(project "glasgow"
 				(path "/87a94d88-8a34-4311-9666-80951c15f2c0"
 					(reference "R254")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 220.98 77.47 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d7939f10-5b74-4941-9e75-fd9f1c207758")
+		(property "Reference" "TP27"
+			(at 219.71 77.4699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "FPGA_INITn"
+			(at 222.25 78.7399 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 226.06 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 226.06 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 220.98 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "afcbd812-1f69-41ae-9380-cf51286654a4")
+		)
+		(instances
+			(project "glasgow"
+				(path "/87a94d88-8a34-4311-9666-80951c15f2c0"
+					(reference "TP27")
 					(unit 1)
 				)
 			)
@@ -17313,6 +17988,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 162.56 77.47 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f9d690c5-a0a4-4fa0-9179-930736799e6f")
+		(property "Reference" "TP12"
+			(at 163.83 76.1999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CLKIF"
+			(at 163.83 78.7399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 167.64 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 162.56 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7d5f0ef1-dcac-41ec-82c4-82ab4ec07a3c")
+		)
+		(instances
+			(project "glasgow"
+				(path "/87a94d88-8a34-4311-9666-80951c15f2c0"
+					(reference "TP12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 88.9 40.64 90)
 		(unit 1)
@@ -18057,7 +18811,7 @@
 				(justify left)
 			)
 		)
-		(pin "~{FPGA_RESET}" input
+		(pin "FPGA_~{RESET}" input
 			(at 194.31 31.75 180)
 			(uuid "8cfb418c-f272-45b8-8f31-0c45113b68e5")
 			(effects

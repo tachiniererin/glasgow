@@ -193,7 +193,7 @@
 				)
 			)
 			(property "Description" "Unpolarized capacitor, small symbol"
-				(at 0 0 0)
+				(at 0 -10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -243,7 +243,7 @@
 						(xy -1.524 -0.508) (xy 1.524 -0.508)
 					)
 					(stroke
-						(width 0.3302)
+						(width 0.3048)
 						(type default)
 					)
 					(fill
@@ -2912,7 +2912,7 @@
 					)
 				)
 				(pin open_collector line
-					(at 10.16 0 180)
+					(at 10.16 -2.54 180)
 					(length 2.54)
 					(name "QOD"
 						(effects
@@ -5990,9 +5990,9 @@
 		)
 		(uuid "4806c732-f391-48fe-ac5e-db9f7e47b8e7")
 	)
-	(text "Buck regulator in inverting\nbuck-boost configuration."
+	(text "Buck regulator in inverting\nbuck-boost configuration.\nVin min = 4 V"
 		(exclude_from_sim no)
-		(at 168.91 132.08 0)
+		(at 168.91 132.715 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12312,7 +12312,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:WQFN-16-1EP_3x3mm_P0.5mm_EP1.68x1.68mm"
+		(property "Footprint" "Package_DFN_QFN:WQFN-16-1EP_3x3mm_P0.5mm_EP1.68x1.68mm_ThermalVias"
 			(at 195.58 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -14900,7 +14900,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C23380893.pdf"
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tlv755p.pdf"
 			(at 113.03 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -15023,7 +15023,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "www.ti.com/lit/ds/symlink/tps7a20.pdf"
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tps763.pdf"
 			(at 147.32 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -15034,7 +15034,7 @@
 				)
 			)
 		)
-		(property "Description" "Low power 300mA LDO 3.3V fixed output voltage, SOT-23-5"
+		(property "Description" "Low power 150mA LDO 3.3V fixed output voltage, SOT-23-5"
 			(at 147.32 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -17550,6 +17550,120 @@
 		)
 	)
 	(symbol
+		(lib_id "Means Of Circuit Design:SY8201")
+		(at 200.66 134.62 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "77de974d-34be-4e6a-a74a-c29c1380489c")
+		(property "Reference" "U22"
+			(at 200.66 129.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LMR54406"
+			(at 200.66 132.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+			(at 201.93 155.956 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lmr54406.pdf"
+			(at 200.406 157.988 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "High Efficiency Fast Response, 0.6A, 45V Input Synchronous Step Down Regulator"
+			(at 207.518 154.686 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "LMR54406DBVR"
+			(at 200.66 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C5219316"
+			(at 200.66 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "58b6989a-6f93-400c-8f25-849dd1dfc128")
+		)
+		(pin "1"
+			(uuid "fed36e77-5633-4a6d-9f28-7e2094bb6196")
+		)
+		(pin "3"
+			(uuid "c90eadf0-175d-42fe-83c8-f9950cead94b")
+		)
+		(pin "5"
+			(uuid "2fe6237f-f539-47b7-8cbf-d08dd00ba141")
+		)
+		(pin "2"
+			(uuid "1591dc58-1a78-405b-8374-88e0dfc22704")
+		)
+		(pin "6"
+			(uuid "d218bd35-5ee2-4f15-8fd5-aaab9f87c402")
+		)
+		(instances
+			(project "glasgow"
+				(path "/87a94d88-8a34-4311-9666-80951c15f2c0/5e58c40f-4fbc-48ee-9161-18e9ce40e918"
+					(reference "U22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 74.93 173.99 0)
 		(unit 1)
@@ -18446,7 +18560,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C18207544.pdf"
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAT54W_SER.pdf"
 			(at 81.28 169.418 0)
 			(hide yes)
 			(show_name no)
@@ -24845,131 +24959,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Means Of Circuit Design:SY8201")
-		(at 200.66 134.62 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e6ba4481-ca86-4b98-b2f8-c40273c6d6da")
-		(property "Reference" "U22"
-			(at 200.66 129.54 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SY8301"
-			(at 200.66 132.08 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 201.93 155.956 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C2927130.pdf"
-			(at 200.406 157.988 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "High Efficiency Fast Response, 1A, 27V Input Synchronous Step Down Regulator"
-			(at 207.518 154.686 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "SY8301ABC"
-			(at 200.66 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C2927130"
-			(at 200.66 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 200.66 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "4"
-			(uuid "c581b676-a3fb-4dd7-8158-4e688e924a3f")
-		)
-		(pin "1"
-			(uuid "181e9eaf-0f2a-4543-8062-06390ec89159")
-		)
-		(pin "3"
-			(uuid "0bc5f192-4647-4e33-b766-8c28f17e7d82")
-		)
-		(pin "5"
-			(uuid "7a6c1fbf-c1b2-490e-938e-24293f086b17")
-		)
-		(pin "2"
-			(uuid "ecb692dd-5b5d-4155-9293-569e7859fd82")
-		)
-		(pin "6"
-			(uuid "58bb6322-35ac-4a08-a939-2256b552fcbd")
-		)
-		(instances
-			(project "glasgow"
-				(path "/87a94d88-8a34-4311-9666-80951c15f2c0/5e58c40f-4fbc-48ee-9161-18e9ce40e918"
-					(reference "U22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Power_Supervisor:CAT811JTBI-GT3")
 		(at 49.53 158.75 0)
 		(unit 1)
@@ -25015,7 +25004,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/datasheet/download/APX811.pdf"
+		(property "Datasheet" "http://www.onsemi.com/pub/Collateral/CAT811-D.PDF"
 			(at 40.64 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -25226,7 +25215,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C178234.pdf"
+		(property "Datasheet" "https://datasheet.lcsc.com/szlcsc/Silergy-Corp-SY7208CABC_C178234.pdf"
 			(at 212.09 97.79 0)
 			(hide yes)
 			(show_name no)

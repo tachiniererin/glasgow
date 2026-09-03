@@ -204,6 +204,129 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:TestPoint_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint_Small"
+				(at 0 2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TestPoint_Small_0_1"
+				(circle
+					(center 0 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_Small_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 0)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector_Generic:Conn_02x10_Odd_Even"
 			(pin_names
 				(offset 1.016)
@@ -942,7 +1065,7 @@
 				)
 			)
 			(property "Description" "Unpolarized capacitor, small symbol"
-				(at 0 0 0)
+				(at 0 -10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -992,7 +1115,7 @@
 						(xy -1.524 -0.508) (xy 1.524 -0.508)
 					)
 					(stroke
-						(width 0.3302)
+						(width 0.3048)
 						(type default)
 					)
 					(fill
@@ -3983,6 +4106,16 @@
 		)
 		(uuid "4ebda67e-87bc-4460-9735-ec5697fe7acd")
 	)
+	(text "Output dschg."
+		(exclude_from_sim no)
+		(at 163.195 112.395 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7955f1a7-015a-477b-9a69-df6253696305")
+	)
 	(text "Vio LED"
 		(exclude_from_sim no)
 		(at 24.13 171.45 0)
@@ -4027,6 +4160,12 @@
 		(uuid "f3792884-550e-4447-a8dd-eb464cb6f0d7")
 	)
 	(junction
+		(at 162.56 173.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0458e4ba-6c4f-48d8-864b-ee7dd180175a")
+	)
+	(junction
 		(at 82.55 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4043,6 +4182,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "10e69d3e-8267-43de-81de-09a091c386b0")
+	)
+	(junction
+		(at 149.86 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "12a7c6d9-a0a9-48fd-b949-be3d0f0ca68d")
 	)
 	(junction
 		(at 132.08 128.27)
@@ -6658,6 +6803,16 @@
 	)
 	(wire
 		(pts
+			(xy 45.72 147.32) (xy 45.72 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45384a41-496d-4817-94a6-8d3e58f6b33e")
+	)
+	(wire
+		(pts
 			(xy 200.66 129.54) (xy 198.12 129.54)
 		)
 		(stroke
@@ -6855,6 +7010,16 @@
 			(type default)
 		)
 		(uuid "50632114-5c30-48f9-9492-531661575d3f")
+	)
+	(wire
+		(pts
+			(xy 157.48 116.84) (xy 157.48 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "506836f8-9d7c-4f39-9115-f0ebe74938a4")
 	)
 	(bus
 		(pts
@@ -7158,6 +7323,16 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 170.18) (xy 162.56 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d963612-1fa4-4ff0-8ef0-674265c095db")
+	)
+	(wire
+		(pts
 			(xy 127 69.85) (xy 127 73.66)
 		)
 		(stroke
@@ -7285,6 +7460,16 @@
 			(type default)
 		)
 		(uuid "65fd3e7d-e5a9-4ecf-b4ab-e56ccfa4a86f")
+	)
+	(wire
+		(pts
+			(xy 156.21 116.84) (xy 157.48 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66649231-8ff9-4dcb-b32d-e0c1575cf655")
 	)
 	(wire
 		(pts
@@ -9735,6 +9920,16 @@
 			(type default)
 		)
 		(uuid "dd66fc0c-ba0e-4703-b790-21acf2c18016")
+	)
+	(wire
+		(pts
+			(xy 149.86 116.84) (xy 151.13 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddca7076-f89b-443b-9818-a8426c00e915")
 	)
 	(wire
 		(pts
@@ -13426,6 +13621,97 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 45.72 147.32 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "13eccaac-c611-4f36-8b03-f00cb5b0188a")
+		(property "Reference" "TP17"
+			(at 44.45 146.0499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "VIO_EN"
+			(at 44.45 148.5899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 45.72 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7f917def-de39-45bc-8989-164c0ede4c81")
+		)
+		(instances
+			(project "glasgow"
+				(path "/87a94d88-8a34-4311-9666-80951c15f2c0/5dfc4ecd-6671-4a7f-9f56-d6fa56b3f4ee/2a96df02-f156-468b-9238-2d3f3d163e1d"
+					(reference "TP17")
+					(unit 1)
+				)
+				(path "/87a94d88-8a34-4311-9666-80951c15f2c0/5dfc4ecd-6671-4a7f-9f56-d6fa56b3f4ee/426da03f-064b-443a-bba8-ddeb57cef369"
+					(reference "TP20")
+					(unit 1)
+				)
+				(path "/87a94d88-8a34-4311-9666-80951c15f2c0/5dfc4ecd-6671-4a7f-9f56-d6fa56b3f4ee/55340267-cea6-4df5-b3d5-2b35f46b489a"
+					(reference "TP18")
+					(unit 1)
+				)
+				(path "/87a94d88-8a34-4311-9666-80951c15f2c0/5dfc4ecd-6671-4a7f-9f56-d6fa56b3f4ee/aa5fb915-2b2c-4d21-a723-7e784d67032b"
+					(reference "TP19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 105.41 161.29 0)
 		(unit 1)
@@ -13802,7 +14088,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 35.56 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -13813,7 +14099,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74AXP1T45.pdf"
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/sn74lvc1t45.pdf"
 			(at 12.7 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -14157,7 +14443,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 168.91 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -14168,7 +14454,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74AXP1T45.pdf"
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/sn74lvc1t45.pdf"
 			(at 146.05 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -15883,7 +16169,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Automated:WLCSP-6_1.4x1.0mm_P0.4mm"
+		(property "Footprint" "Package_CSP:WLCSP-6_1.4x1.0mm_P0.4mm"
 			(at 140.97 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -18164,7 +18450,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 35.56 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -18175,7 +18461,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74AXP1T45.pdf"
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/sn74lvc1t45.pdf"
 			(at 12.7 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -20173,7 +20459,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 168.91 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -20184,7 +20470,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74AXP1T45.pdf"
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/sn74lvc1t45.pdf"
 			(at 146.05 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -20587,6 +20873,96 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 157.48 118.11 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8e229211-c1bd-4fed-b00a-4a1fafafe604")
+		(property "Reference" "#PWR0420"
+			(at 157.48 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 157.48 123.19 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 157.48 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 157.48 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c569161f-21b1-4e61-a912-550e212b901c")
+		)
+		(instances
+			(project "glasgow"
+				(path "/87a94d88-8a34-4311-9666-80951c15f2c0/5dfc4ecd-6671-4a7f-9f56-d6fa56b3f4ee/2a96df02-f156-468b-9238-2d3f3d163e1d"
+					(reference "#PWR0420")
+					(unit 1)
+				)
+				(path "/87a94d88-8a34-4311-9666-80951c15f2c0/5dfc4ecd-6671-4a7f-9f56-d6fa56b3f4ee/426da03f-064b-443a-bba8-ddeb57cef369"
+					(reference "#PWR0423")
+					(unit 1)
+				)
+				(path "/87a94d88-8a34-4311-9666-80951c15f2c0/5dfc4ecd-6671-4a7f-9f56-d6fa56b3f4ee/55340267-cea6-4df5-b3d5-2b35f46b489a"
+					(reference "#PWR0421")
+					(unit 1)
+				)
+				(path "/87a94d88-8a34-4311-9666-80951c15f2c0/5dfc4ecd-6671-4a7f-9f56-d6fa56b3f4ee/aa5fb915-2b2c-4d21-a723-7e784d67032b"
+					(reference "#PWR0422")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 22.86 74.93 0)
 		(unit 1)
 		(body_style 1)
@@ -20670,6 +21046,97 @@
 				)
 				(path "/87a94d88-8a34-4311-9666-80951c15f2c0/5dfc4ecd-6671-4a7f-9f56-d6fa56b3f4ee/aa5fb915-2b2c-4d21-a723-7e784d67032b"
 					(reference "#PWR0324")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 162.56 170.18 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8e84846f-90c9-4307-975d-27f7afe10348")
+		(property "Reference" "TP21"
+			(at 163.83 168.9099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~{ALERT}_Vio"
+			(at 163.83 171.4499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 167.64 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 162.56 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bb06c543-3226-4b7d-abf0-f866168b2168")
+		)
+		(instances
+			(project "glasgow"
+				(path "/87a94d88-8a34-4311-9666-80951c15f2c0/5dfc4ecd-6671-4a7f-9f56-d6fa56b3f4ee/2a96df02-f156-468b-9238-2d3f3d163e1d"
+					(reference "TP21")
+					(unit 1)
+				)
+				(path "/87a94d88-8a34-4311-9666-80951c15f2c0/5dfc4ecd-6671-4a7f-9f56-d6fa56b3f4ee/426da03f-064b-443a-bba8-ddeb57cef369"
+					(reference "TP24")
+					(unit 1)
+				)
+				(path "/87a94d88-8a34-4311-9666-80951c15f2c0/5dfc4ecd-6671-4a7f-9f56-d6fa56b3f4ee/55340267-cea6-4df5-b3d5-2b35f46b489a"
+					(reference "TP22")
+					(unit 1)
+				)
+				(path "/87a94d88-8a34-4311-9666-80951c15f2c0/5dfc4ecd-6671-4a7f-9f56-d6fa56b3f4ee/aa5fb915-2b2c-4d21-a723-7e784d67032b"
+					(reference "TP23")
 					(unit 1)
 				)
 			)
@@ -22084,7 +22551,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 124.46 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -22095,7 +22562,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74AXP1T45.pdf"
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/sn74lvc1t45.pdf"
 			(at 101.6 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -22963,7 +23430,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 80.01 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -22974,7 +23441,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74AXP1T45.pdf"
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/sn74lvc1t45.pdf"
 			(at 57.15 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -23227,7 +23694,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 124.46 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -23238,7 +23705,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74AXP1T45.pdf"
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/sn74lvc1t45.pdf"
 			(at 101.6 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -23725,7 +24192,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 80.01 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -23736,7 +24203,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74AXP1T45.pdf"
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/sn74lvc1t45.pdf"
 			(at 57.15 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -27091,6 +27558,109 @@
 				)
 				(path "/87a94d88-8a34-4311-9666-80951c15f2c0/5dfc4ecd-6671-4a7f-9f56-d6fa56b3f4ee/aa5fb915-2b2c-4d21-a723-7e784d67032b"
 					(reference "R207")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 153.67 116.84 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e883a4c9-a4d2-404d-9919-1205bd7ceed9")
+		(property "Reference" "R259"
+			(at 153.67 111.76 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 153.67 114.3 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 153.67 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 153.67 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 153.67 116.84 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "9acd1579-d679-4fef-b5ac-f3e020b3ac9e")
+		)
+		(pin "1"
+			(uuid "b76d2b9f-d14f-4279-b8c5-0930943d6771")
+		)
+		(instances
+			(project "glasgow"
+				(path "/87a94d88-8a34-4311-9666-80951c15f2c0/5dfc4ecd-6671-4a7f-9f56-d6fa56b3f4ee/2a96df02-f156-468b-9238-2d3f3d163e1d"
+					(reference "R259")
+					(unit 1)
+				)
+				(path "/87a94d88-8a34-4311-9666-80951c15f2c0/5dfc4ecd-6671-4a7f-9f56-d6fa56b3f4ee/426da03f-064b-443a-bba8-ddeb57cef369"
+					(reference "R271")
+					(unit 1)
+				)
+				(path "/87a94d88-8a34-4311-9666-80951c15f2c0/5dfc4ecd-6671-4a7f-9f56-d6fa56b3f4ee/55340267-cea6-4df5-b3d5-2b35f46b489a"
+					(reference "R269")
+					(unit 1)
+				)
+				(path "/87a94d88-8a34-4311-9666-80951c15f2c0/5dfc4ecd-6671-4a7f-9f56-d6fa56b3f4ee/aa5fb915-2b2c-4d21-a723-7e784d67032b"
+					(reference "R270")
 					(unit 1)
 				)
 			)
