@@ -4435,6 +4435,17 @@
 		)
 		(uuid "7d36b0e5-ae4d-43e8-9cad-1087d1de203b")
 	)
+	(text "FPGA in reset has a weak\npull-down on all pins.\nFX2 can overpower that."
+		(exclude_from_sim no)
+		(at 16.51 31.115 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "86103f09-ab80-4754-857e-611e0e6015ba")
+	)
 	(text "> For robustness, a crystal with\n> higher drive level >100 μW is recommended.\nD_{L}=100µW for selected part\n"
 		(exclude_from_sim no)
 		(at 93.98 115.57 0)
@@ -4811,6 +4822,10 @@
 	(no_connect
 		(at 186.69 88.9)
 		(uuid "f7287dc2-c7d8-44ac-aa55-b2ba08f3d89a")
+	)
+	(no_connect
+		(at 44.45 41.91)
+		(uuid "f765f443-597d-4ca9-b08a-68548a1192d4")
 	)
 	(bus_entry
 		(at 265.43 83.82)
@@ -12163,7 +12178,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "38cd1c30-85ff-406d-b6db-03a49a3aab3e")
 		(property "Reference" "R26"

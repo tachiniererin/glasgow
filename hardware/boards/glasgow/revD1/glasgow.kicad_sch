@@ -5348,16 +5348,6 @@
 		)
 		(uuid "46c09653-ece3-44d1-97ba-17d5d7c120e9")
 	)
-	(wire
-		(pts
-			(xy 72.39 96.52) (xy 80.01 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "49a8fc44-c03e-410c-983d-1f16f55538e7")
-	)
 	(bus
 		(pts
 			(xy 149.86 27.94) (xy 151.13 26.67)
@@ -6200,7 +6190,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 96.52) (xy 67.31 96.52)
+			(xy 64.77 96.52) (xy 72.39 96.52)
 		)
 		(stroke
 			(width 0)
@@ -9004,7 +8994,7 @@
 		)
 		(uuid "5b056a46-bfbd-4806-bfcb-75f7a873c472")
 	)
-	(label "CLK_{OUT}"
+	(label "NAFE_CLK_{OUT}"
 		(at 226.06 88.9 0)
 		(effects
 			(font
@@ -9235,7 +9225,7 @@
 		(uuid "982afac9-ad7f-49c1-b10a-660b8cb8fa9c")
 	)
 	(label "~{ALERT}"
-		(at 80.01 96.52 180)
+		(at 72.39 96.52 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10916,86 +10906,6 @@
 			(project "glasgow"
 				(path "/87a94d88-8a34-4311-9666-80951c15f2c0"
 					(reference "R8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 69.85 96.52 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2f9775b5-a362-4cfd-988b-79fba66b7f6e")
-		(property "Reference" "R267"
-			(at 69.85 99.06 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 69.85 101.6 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 69.85 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 69.85 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 69.85 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "143742ea-9fab-47e6-913b-4b11841b5462")
-		)
-		(pin "2"
-			(uuid "c9ed66d4-31fe-4794-b0ba-dbeee63a8253")
-		)
-		(instances
-			(project "glasgow"
-				(path "/87a94d88-8a34-4311-9666-80951c15f2c0"
-					(reference "R267")
 					(unit 1)
 				)
 			)
