@@ -7691,9 +7691,9 @@
 		)
 		(uuid "10e3acb7-af2c-439d-b611-d6d1e2a67d9e")
 	)
-	(text "Flash ~{CS} is controlled by the\nFPGA. Flash is held in reset by\ndefault, MCU can override the weak\npull-down."
+	(text "Flash ~{CS} is controlled by the\nFPGA. Flash is held in reset by\ndefault, MCU can override the\nweak pull-down."
 		(exclude_from_sim no)
-		(at 16.51 113.03 0)
+		(at 13.97 118.745 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7745,16 +7745,6 @@
 			(justify left)
 		)
 		(uuid "3b43a287-aaa7-4a4b-a3cf-9f563ea0e884")
-	)
-	(text "spares"
-		(exclude_from_sim no)
-		(at 123.825 92.075 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "3d79a97a-6106-447c-9432-cbfbff549a06")
 	)
 	(text "Weak pull-up/down so we can\noverride it with the MCU."
 		(exclude_from_sim no)
@@ -7956,22 +7946,10 @@
 		(uuid "61f481da-4eb8-408d-aeb0-dd9ceca3ed57")
 	)
 	(junction
-		(at 120.65 90.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "63372a25-db93-4e85-b538-bcaf2cf6e0f4")
-	)
-	(junction
 		(at 114.3 179.07)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "653449b3-fb1c-428f-8316-27bd5eddf6f0")
-	)
-	(junction
-		(at 120.65 92.71)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6a3fc9c4-3730-4fbf-95e1-b740cdfd2e9b")
 	)
 	(junction
 		(at 243.84 143.51)
@@ -8188,6 +8166,10 @@
 		(uuid "a3908679-fd2a-42cc-b036-727cee14c294")
 	)
 	(no_connect
+		(at 118.11 95.25)
+		(uuid "a68bff91-5b8b-4a0d-9ac5-9ba55f2c90c5")
+	)
+	(no_connect
 		(at 267.97 54.61)
 		(uuid "b21c5b01-2d60-47c0-83b3-1b6c4cee39cb")
 	)
@@ -8320,15 +8302,6 @@
 			(type default)
 		)
 		(uuid "44cf6841-6563-4c4f-86aa-b492f518aa0b")
-	)
-	(bus_entry
-		(at 133.35 59.69)
-		(size -2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4efacb1a-bce5-4219-a62b-ccae204fabe3")
 	)
 	(bus_entry
 		(at 247.65 82.55)
@@ -8482,6 +8455,15 @@
 			(type default)
 		)
 		(uuid "c0a2a29e-4b9a-4542-92c5-dca08641e37c")
+	)
+	(bus_entry
+		(at 133.35 59.69)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc0faa4f-9c42-4820-aa28-38e593a1b953")
 	)
 	(bus_entry
 		(at 133.35 57.15)
@@ -9549,6 +9531,16 @@
 	)
 	(wire
 		(pts
+			(xy 118.11 92.71) (xy 119.38 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a21ea05-b57b-45ad-8cd5-875ff12244be")
+	)
+	(wire
+		(pts
 			(xy 161.29 162.56) (xy 161.29 171.45)
 		)
 		(stroke
@@ -9596,16 +9588,6 @@
 			(type default)
 		)
 		(uuid "4e2d82bd-cfa2-405d-b4f1-b69ecbf5fd1c")
-	)
-	(bus
-		(pts
-			(xy 133.35 59.69) (xy 133.35 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "50e08e6f-f89f-495c-a214-6dac6b4aef86")
 	)
 	(wire
 		(pts
@@ -9716,16 +9698,6 @@
 			(type default)
 		)
 		(uuid "571a0ec4-f472-462a-b4ba-5c4f57e671a1")
-	)
-	(wire
-		(pts
-			(xy 118.11 92.71) (xy 120.65 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5791da87-6097-4418-8cb2-2a0340226853")
 	)
 	(wire
 		(pts
@@ -11129,7 +11101,7 @@
 	)
 	(bus
 		(pts
-			(xy 133.35 57.15) (xy 133.35 59.69)
+			(xy 133.35 57.15) (xy 133.35 95.25)
 		)
 		(stroke
 			(width 0)
@@ -11359,16 +11331,6 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 95.25) (xy 120.65 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d0b9541a-d244-46bd-ac91-bde20c0f79ad")
-	)
-	(wire
-		(pts
 			(xy 269.24 157.48) (xy 266.7 157.48)
 		)
 		(stroke
@@ -11476,16 +11438,6 @@
 			(type default)
 		)
 		(uuid "d6edf8a9-8c72-44db-9f83-d0fdd13a2bd1")
-	)
-	(wire
-		(pts
-			(xy 120.65 92.71) (xy 120.65 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d78e6d6e-beba-44e2-b40e-4210060a4d94")
 	)
 	(wire
 		(pts
@@ -11996,16 +11948,6 @@
 			(type default)
 		)
 		(uuid "f658a4d9-5f56-4bcc-9c78-c8ed8d20ebe1")
-	)
-	(wire
-		(pts
-			(xy 120.65 90.17) (xy 120.65 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f852a918-f979-43a8-8ed1-53fbd24a136d")
 	)
 	(wire
 		(pts
@@ -12667,13 +12609,13 @@
 		)
 		(uuid "239b41a6-4b06-4863-8947-b3da36b73667")
 	)
-	(label "MCU_~{RST}"
-		(at 119.38 62.23 0)
+	(label "F_MCU_~{RST}"
+		(at 130.81 62.23 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "25b8418a-f6c4-4832-8d58-1f6f36971f3f")
 	)
@@ -13498,6 +13440,17 @@
 			(justify left)
 		)
 		(uuid "6c1e8e2a-4ef4-463d-83ac-a10481cfc68c")
+	)
+	(hierarchical_label "FF_MCU_R_{INH}"
+		(shape output)
+		(at 119.38 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b721a0cd-0b57-483b-9e72-bae22e75936b")
 	)
 	(hierarchical_label "{NAFE}"
 		(shape bidirectional)
