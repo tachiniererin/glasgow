@@ -13654,7 +13654,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 50.8 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -21085,7 +21085,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 167.64 170.18 0)
 			(hide yes)
 			(show_name no)

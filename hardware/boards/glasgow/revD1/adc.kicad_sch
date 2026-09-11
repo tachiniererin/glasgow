@@ -13325,7 +13325,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Package_LCC:PLCC-84_29.3x29.3mm_P1.27mm"
+		(property "Footprint" "Package_TO_SOT_SMD:Texas_R-PDSO-G5_DCK-5"
 			(at 154.94 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -22184,7 +22184,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Display:AG12864E"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-553"
 			(at 118.11 162.56 0)
 			(hide yes)
 			(show_name no)
