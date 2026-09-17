@@ -12,195 +12,6 @@
 		(comment 1 "Glasgow Debug Tool")
 	)
 	(lib_symbols
-		(symbol "74xGxx:74LVC1G125"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at -10.16 7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "74LVC1G125"
-				(at 2.54 -7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g125.pdf"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Single Buffer Gate Tri-State, Low-Voltage CMOS"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "Single Gate Buff Tri-State LVC CMOS"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "SOT?23* Texas?R-PDSO-G5?DCK* Texas?R-PDSO-N5?DRL* Texas?X2SON*0.8x0.8mm*P0.48mm*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "74LVC1G125_0_1"
-				(polyline
-					(pts
-						(xy -7.62 6.35) (xy -7.62 -6.35) (xy 5.08 0) (xy -7.62 6.35)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "74LVC1G125_1_1"
-				(pin input inverted
-					(at 0 10.16 270)
-					(length 7.62)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -15.24 0 0)
-					(length 7.62)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -5.08 -10.16 90)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin tri_state line
-					(at 12.7 0 180)
-					(length 7.62)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -5.08 10.16 270)
-					(length 5.08)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector:TestPoint"
 			(pin_numbers
 				(hide yes)
@@ -4336,12 +4147,6 @@
 		(uuid "a6a3ffb9-4f5b-456d-b406-50c06419bb07")
 	)
 	(junction
-		(at 173.99 137.16)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "aff6e77e-1f4a-40a8-93dd-53b4949b5882")
-	)
-	(junction
 		(at 30.48 24.13)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5124,16 +4929,6 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 148.59) (xy 163.83 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2596133d-41be-4f10-a709-57c757e4f3f6")
-	)
-	(wire
-		(pts
 			(xy 138.43 40.64) (xy 147.32 40.64)
 		)
 		(stroke
@@ -5594,7 +5389,7 @@
 	)
 	(bus
 		(pts
-			(xy 170.18 63.5) (xy 168.91 64.77)
+			(xy 170.18 64.77) (xy 168.91 66.04)
 		)
 		(stroke
 			(width 0)
@@ -5794,7 +5589,7 @@
 	)
 	(bus
 		(pts
-			(xy 153.67 66.04) (xy 153.67 76.2)
+			(xy 153.67 67.31) (xy 153.67 76.2)
 		)
 		(stroke
 			(width 0)
@@ -5804,7 +5599,7 @@
 	)
 	(bus
 		(pts
-			(xy 170.18 48.26) (xy 170.18 63.5)
+			(xy 170.18 48.26) (xy 170.18 64.77)
 		)
 		(stroke
 			(width 0)
@@ -5914,16 +5709,6 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 138.43) (xy 166.37 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "688f5d2c-907c-4525-a938-d3044c57cb22")
-	)
-	(wire
-		(pts
 			(xy 156.21 170.18) (xy 154.94 170.18)
 		)
 		(stroke
@@ -5964,16 +5749,6 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 137.16) (xy 167.64 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6b394f13-8fb0-4400-a594-b716a9e9cd83")
-	)
-	(wire
-		(pts
 			(xy 30.48 24.13) (xy 39.37 24.13)
 		)
 		(stroke
@@ -6001,16 +5776,6 @@
 			(type default)
 		)
 		(uuid "6f75b3ff-58af-411b-a6ec-d858abc1e84e")
-	)
-	(wire
-		(pts
-			(xy 172.72 137.16) (xy 173.99 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6ffffbcd-d8bd-4988-ad00-a13afa00a167")
 	)
 	(wire
 		(pts
@@ -6131,16 +5896,6 @@
 			(type default)
 		)
 		(uuid "776d5ed3-0e62-4083-8e96-af1533ec7a26")
-	)
-	(wire
-		(pts
-			(xy 173.99 158.75) (xy 173.99 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "77749b24-ed8e-431a-a403-5915f6413bd8")
 	)
 	(wire
 		(pts
@@ -6504,16 +6259,6 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 39.37) (xy 194.31 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "952d172c-a36c-46ab-8289-2d4813605906")
-	)
-	(wire
-		(pts
 			(xy 68.58 31.75) (xy 58.42 31.75)
 		)
 		(stroke
@@ -6591,16 +6336,6 @@
 			(type default)
 		)
 		(uuid "9a04c2cb-9585-42c2-be0d-d0f3df65ef05")
-	)
-	(wire
-		(pts
-			(xy 195.58 137.16) (xy 179.07 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a6cb699-afc6-423b-8b5d-469f7850c35e")
 	)
 	(wire
 		(pts
@@ -6701,16 +6436,6 @@
 			(type default)
 		)
 		(uuid "a16cefba-9d85-46d0-9fd1-8bda68273e93")
-	)
-	(wire
-		(pts
-			(xy 179.07 137.16) (xy 179.07 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a1bcf752-2b9c-4e9e-8b3c-26db084ea25e")
 	)
 	(wire
 		(pts
@@ -6831,16 +6556,6 @@
 			(type default)
 		)
 		(uuid "ac21c4ee-12e9-41b2-b3fe-f684d29445be")
-	)
-	(wire
-		(pts
-			(xy 173.99 135.89) (xy 173.99 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ac5cc29a-ac56-464c-a752-ce267960e742")
 	)
 	(bus
 		(pts
@@ -7274,7 +6989,7 @@
 	)
 	(bus
 		(pts
-			(xy 154.94 64.77) (xy 153.67 66.04)
+			(xy 154.94 66.04) (xy 153.67 67.31)
 		)
 		(stroke
 			(width 0)
@@ -7574,16 +7289,6 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 137.16) (xy 173.99 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e37c2fc0-fc58-43bf-8ba0-511c09f4ee27")
-	)
-	(wire
-		(pts
 			(xy 30.48 30.48) (xy 30.48 31.75)
 		)
 		(stroke
@@ -7591,16 +7296,6 @@
 			(type default)
 		)
 		(uuid "e392d173-0b0e-4957-9ede-a8117a9f35bf")
-	)
-	(wire
-		(pts
-			(xy 191.77 148.59) (xy 201.93 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e3e6504f-26a7-4e55-bc55-61858d1ee605")
 	)
 	(bus
 		(pts
@@ -7784,7 +7479,7 @@
 	)
 	(bus
 		(pts
-			(xy 168.91 64.77) (xy 154.94 64.77)
+			(xy 168.91 66.04) (xy 154.94 66.04)
 		)
 		(stroke
 			(width 0)
@@ -8998,16 +8693,6 @@
 		)
 		(uuid "047bd112-c061-47eb-bd82-91cfb9aac3bd")
 	)
-	(label "MCU_~{RST}"
-		(at 201.93 148.59 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "08de20c4-407e-460c-bdc9-d9d8a6f1d49c")
-	)
 	(label "FPGA_INITn"
 		(at 226.06 77.47 0)
 		(effects
@@ -9108,16 +8793,6 @@
 		)
 		(uuid "1a7f0056-fed5-4877-b4b2-a99c2f934565")
 	)
-	(label "FF_MCU_R_{INH}"
-		(at 195.58 137.16 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "1b421e2a-742a-437f-8baa-2495ef972a7a")
-	)
 	(label "{NAFE}"
 		(at 214.63 26.67 0)
 		(effects
@@ -9128,7 +8803,7 @@
 		)
 		(uuid "1c1b1e68-f32b-409f-9408-fbced1dfc548")
 	)
-	(label "~{FPGA_RESET}"
+	(label "FPGA_~{RESET}"
 		(at 236.22 41.91 0)
 		(effects
 			(font
@@ -9658,16 +9333,6 @@
 		)
 		(uuid "b03c5ee8-9d6d-4241-b8eb-e17eaa205908")
 	)
-	(label "FF_MCU_R_{INH}"
-		(at 180.34 39.37 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b1b89333-0a23-49d1-946a-026055bc3406")
-	)
 	(label "ENVD"
 		(at 148.59 68.58 180)
 		(effects
@@ -9768,7 +9433,7 @@
 		)
 		(uuid "d3556e51-6618-431e-8bcc-fe0558de8d3e")
 	)
-	(label "FX2_MCU_~{RST}"
+	(label "MCU_~{RST}"
 		(at 168.91 58.42 180)
 		(effects
 			(font
@@ -9867,16 +9532,6 @@
 			(justify right bottom)
 		)
 		(uuid "ff4a0a48-8f91-4d4e-b10b-c6a6e53d5533")
-	)
-	(label "FX2_MCU_~{RST}"
-		(at 147.32 148.59 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ff6e0e17-0bd4-495c-8718-cf2112367356")
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
@@ -10820,11 +10475,11 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
-		(property "Value" "2k2"
+		(property "Value" "2.2k"
 			(at 39.37 140.97 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11037,7 +10692,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "Automated:TestPoint_Pad_D0.5mm"
 			(at 167.64 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -11177,12 +10832,12 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 				(justify right)
 			)
 		)
-		(property "Value" "2k2"
+		(property "Value" "2.2k"
 			(at 100.33 100.3299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11286,86 +10941,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 173.99 135.89 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2402068c-7a50-4e53-bdc0-3f17641d4527")
-		(property "Reference" "#PWR0435"
-			(at 173.99 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 176.53 134.6199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 173.99 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 173.99 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 173.99 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a674f526-943d-4ac9-9c78-272c3bb7fcc4")
-		)
-		(instances
-			(project "glasgow"
-				(path "/87a94d88-8a34-4311-9666-80951c15f2c0"
-					(reference "#PWR0435")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "MCU_Cypress:CY7C68013A-56LTX")
 		(at 120.65 76.2 0)
 		(unit 1)
@@ -11399,7 +10974,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:QFN-56-1EP_8x8mm_P0.5mm_EP4.5x5.2mm_ThermalVias_TopTented"
+		(property "Footprint" "Package_DFN_QFN:QFN-56-1EP_8x8mm_P0.5mm_EP4.5x5.2mm"
 			(at 120.65 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -11756,12 +11331,12 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 				(justify right)
 			)
 		)
-		(property "Value" "2k2"
+		(property "Value" "2.2k"
 			(at 92.71 100.3299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12190,7 +11765,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
@@ -12331,7 +11906,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "Automated:TestPoint_Pad_D0.5mm"
 			(at 175.26 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -12898,85 +12473,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 166.37 138.43 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5adb82c6-b24d-4118-bf3d-89cc11793c4b")
-		(property "Reference" "#PWR0437"
-			(at 166.37 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 163.83 139.6999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 166.37 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 166.37 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 166.37 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e95cb2cc-1c8e-4d10-b591-9e4f47d351a7")
-		)
-		(instances
-			(project "glasgow"
-				(path "/87a94d88-8a34-4311-9666-80951c15f2c0"
-					(reference "#PWR0437")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint_Small")
 		(at 160.02 99.06 0)
 		(unit 1)
@@ -13010,7 +12506,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "Automated:TestPoint_Pad_D0.5mm"
 			(at 165.1 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -14924,119 +14420,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 170.18 137.16 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9e4ea0b6-ba0b-4cbd-acb0-38f2be7a1493")
-		(property "Reference" "C233"
-			(at 170.1863 130.81 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1uF"
-			(at 170.1863 133.35 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 170.18 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 170.18 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 170.18 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C52923"
-			(at 170.18 137.16 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "CL05A105KA5NQNC"
-			(at 170.18 137.16 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 170.18 137.16 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "6dc5479e-2e27-4107-87c4-4b475c118530")
-		)
-		(pin "1"
-			(uuid "a42735a1-9062-4c00-b018-aa882de46757")
-		)
-		(instances
-			(project "glasgow"
-				(path "/87a94d88-8a34-4311-9666-80951c15f2c0"
-					(reference "C233")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED_Small")
 		(at 48.26 128.27 0)
 		(mirror y)
@@ -16416,7 +15799,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "Automated:TestPoint_Pad_D0.5mm"
 			(at 175.26 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -16866,7 +16249,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
@@ -16995,7 +16378,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "1uF"
 			(at 58.42 177.8062 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17039,7 +16422,7 @@
 				)
 			)
 		)
-		(property "Mfg" "Taiyo Yuden"
+		(property "MPN" "CL05A105KA5NQNC"
 			(at -69.85 354.33 0)
 			(hide yes)
 			(show_name no)
@@ -17050,29 +16433,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL05B104KB54PNC"
-			(at -69.85 354.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C307331"
-			(at 60.96 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
+		(property "LCSC" ""
 			(at 60.96 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -17116,7 +16477,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
@@ -17246,7 +16607,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "Automated:TestPoint_Pad_D0.5mm"
 			(at 240.03 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -17286,95 +16647,6 @@
 			(project "glasgow"
 				(path "/87a94d88-8a34-4311-9666-80951c15f2c0"
 					(reference "TP27")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "74xGxx:74LVC1G125")
-		(at 179.07 148.59 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d9d399c5-291e-40a4-a22b-882e113457d7")
-		(property "Reference" "U77"
-			(at 191.77 142.1698 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "74LVC1G125"
-			(at 191.77 144.7098 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:Texas_R-PDSO-N5_DRL-5"
-			(at 179.07 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g125.pdf"
-			(at 179.07 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Single Buffer Gate Tri-State, Low-Voltage CMOS"
-			(at 179.07 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "df60d477-9ed2-4aed-9f6e-f7403e436525")
-		)
-		(pin "4"
-			(uuid "3cc5a88a-21ce-4f98-af0a-d1d8fdca6ce9")
-		)
-		(pin "5"
-			(uuid "64a34f50-5fc1-4cd1-b6b2-d85a5b1d56a8")
-		)
-		(pin "2"
-			(uuid "acd19bf7-aadf-4bae-9957-bda488a9c1f7")
-		)
-		(pin "3"
-			(uuid "29703882-58c9-49e4-9589-4e264e48e3aa")
-		)
-		(instances
-			(project "glasgow"
-				(path "/87a94d88-8a34-4311-9666-80951c15f2c0"
-					(reference "U77")
 					(unit 1)
 				)
 			)
@@ -17515,7 +16787,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
@@ -17722,7 +16994,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "1uF"
 			(at 120.65 173.9962 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17766,7 +17038,7 @@
 				)
 			)
 		)
-		(property "Mfg" "Taiyo Yuden"
+		(property "MPN" "CL05A105KA5NQNC"
 			(at 44.45 350.52 0)
 			(hide yes)
 			(show_name no)
@@ -17777,29 +17049,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL05B104KB54PNC"
-			(at 44.45 350.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C307331"
-			(at 123.19 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
+		(property "LCSC" ""
 			(at 123.19 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -17843,7 +17093,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 				(justify left)
 			)
@@ -17925,85 +17175,6 @@
 			(project "glasgow"
 				(path "/87a94d88-8a34-4311-9666-80951c15f2c0"
 					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 173.99 160.02 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e167d87f-76f9-4976-82bf-0782e6cb9132")
-		(property "Reference" "#PWR0436"
-			(at 173.99 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 171.45 161.2899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 173.99 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 173.99 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 173.99 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e04caaae-6db1-45fb-a6a8-09ce0a7a492c")
-		)
-		(instances
-			(project "glasgow"
-				(path "/87a94d88-8a34-4311-9666-80951c15f2c0"
-					(reference "#PWR0436")
 					(unit 1)
 				)
 			)
@@ -18375,11 +17546,11 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
-		(property "Value" "2k2"
+		(property "Value" "2.2k"
 			(at 39.37 133.35 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18614,7 +17785,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 				(justify right)
 			)
@@ -18745,7 +17916,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "Automated:TestPoint_Pad_D0.5mm"
 			(at 167.64 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -19489,9 +18660,9 @@
 				(justify left)
 			)
 		)
-		(pin "~{FPGA_RESET}" input
+		(pin "FPGA_~{RESET}" input
 			(at 248.92 41.91 180)
-			(uuid "f3191f2d-e296-4b3b-9116-ae8cd59aac9f")
+			(uuid "1a62ceda-9518-45c3-b5bf-7f905a8a9b4b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19509,7 +18680,7 @@
 	)
 	(sheet
 		(at 194.31 24.13)
-		(size 19.05 22.86)
+		(size 19.05 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -19535,7 +18706,7 @@
 			)
 		)
 		(property "Sheetfile" "fpga.kicad_sch"
-			(at 194.31 47.5746 0)
+			(at 194.31 37.4146 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19583,16 +18754,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-		(pin "FF_MCU_R_{INH}" output
-			(at 194.31 39.37 180)
-			(uuid "a302e0b5-e38f-4ec9-9a15-d5213d8d91c5")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 		(instances

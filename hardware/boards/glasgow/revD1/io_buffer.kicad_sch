@@ -8339,16 +8339,6 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 35.56) (xy 148.59 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "50aebde8-043a-41f3-8213-a38caa940f7e")
-	)
-	(wire
-		(pts
 			(xy 167.64 33.02) (xy 167.64 31.75)
 		)
 		(stroke
@@ -8789,16 +8779,6 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 104.14) (xy 148.59 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "72b9fa8a-2a49-4ea7-bc6f-b591bc46822d")
-	)
-	(wire
-		(pts
 			(xy 167.64 38.1) (xy 166.37 38.1)
 		)
 		(stroke
@@ -8826,16 +8806,6 @@
 			(type default)
 		)
 		(uuid "74442a4f-0cc8-4640-bcc1-e995b80281c3")
-	)
-	(wire
-		(pts
-			(xy 148.59 116.84) (xy 148.59 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "766cb905-cee9-4a56-b852-fc887d8e2f99")
 	)
 	(wire
 		(pts
@@ -8889,7 +8859,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 48.26) (xy 148.59 41.91)
+			(xy 148.59 35.56) (xy 148.59 48.26)
 		)
 		(stroke
 			(width 0)
@@ -10076,6 +10046,16 @@
 			(type default)
 		)
 		(uuid "c7462da6-519e-401a-b575-b5faf5069059")
+	)
+	(wire
+		(pts
+			(xy 148.59 104.14) (xy 148.59 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c88b1b22-939c-4114-a2d4-8264c4f9dc46")
 	)
 	(wire
 		(pts
@@ -14233,121 +14213,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 148.59 107.95 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "68d2d159-24d7-42d1-9de8-bfd84b971a50")
-		(property "Reference" "R252"
-			(at 146.05 106.6799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10k"
-			(at 146.05 109.2199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 148.59 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 148.59 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 148.59 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C25744"
-			(at 148.59 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "0402WGF1002TCE"
-			(at 148.59 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 148.59 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c2d0ddd3-daff-497f-90ac-e0482588a81b")
-		)
-		(pin "2"
-			(uuid "d6a7dcbd-a615-4743-adb1-bddc93f39a81")
-		)
-		(instances
-			(project "glasgow"
-				(path "/87a94d88-8a34-4311-9666-80951c15f2c0/5dfc4ecd-6671-4a7f-9f56-d6fa56b3f4ee"
-					(reference "R252")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 148.59 34.29 0)
 		(unit 1)
@@ -17276,121 +17141,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 148.59 39.37 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e7b1d579-f3db-421d-8e17-e1bcaaae2e98")
-		(property "Reference" "R253"
-			(at 146.05 38.0999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10k"
-			(at 146.05 40.6399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 148.59 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 148.59 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 148.59 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C25744"
-			(at 148.59 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "0402WGF1002TCE"
-			(at 148.59 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 148.59 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2753269f-89c8-47f8-a06b-67b5e474368a")
-		)
-		(pin "2"
-			(uuid "f8a9190f-ab17-40c7-9482-3be17a7f6487")
-		)
-		(instances
-			(project "glasgow"
-				(path "/87a94d88-8a34-4311-9666-80951c15f2c0/5dfc4ecd-6671-4a7f-9f56-d6fa56b3f4ee"
-					(reference "R253")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 17.78 49.53 0)
 		(unit 1)
@@ -17507,7 +17257,8 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 153.67 111.76 90)
+		(at 153.67 111.76 270)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17515,7 +17266,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp yes)
-		(fields_autoplaced yes)
 		(uuid "eb77dac1-f4cf-4d1e-aa34-44dd979aebb2")
 		(property "Reference" "R268"
 			(at 153.67 115.57 90)

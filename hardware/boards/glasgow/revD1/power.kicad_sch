@@ -5935,6 +5935,17 @@
 		)
 		(uuid "16fd0892-f415-4015-bc88-a4ea2d5bc6c2")
 	)
+	(text "PG_{VBUS} UVLO is after the eFuse\nso that even if the device is\npowered externally it should still\npower up correctly."
+		(exclude_from_sim no)
+		(at 15.875 163.83 0)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify left)
+		)
+		(uuid "1e4c3b16-cfee-4b0a-96fb-e194c3ac9d03")
+	)
 	(text "Test w/o U16, should work"
 		(exclude_from_sim no)
 		(at 16.51 140.97 0)
@@ -7243,7 +7254,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 26.67) (xy 163.83 25.4)
+			(xy 163.83 29.21) (xy 163.83 26.67)
 		)
 		(stroke
 			(width 0)
@@ -9203,7 +9214,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 26.67) (xy 163.83 26.67)
+			(xy 160.02 29.21) (xy 163.83 29.21)
 		)
 		(stroke
 			(width 0)
@@ -9583,7 +9594,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 17.78) (xy 163.83 20.32)
+			(xy 163.83 17.78) (xy 163.83 21.59)
 		)
 		(stroke
 			(width 0)
@@ -10367,7 +10378,7 @@
 		)
 		(uuid "1461123e-2578-4319-aad5-cc55bcf10a64")
 	)
-	(hierarchical_label "~{FPGA_RESET}"
+	(hierarchical_label "FPGA_~{RESET}"
 		(shape input)
 		(at 139.7 29.21 180)
 		(effects
@@ -12176,27 +12187,28 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "17effe09-da99-43f8-bad9-b04ba93aaf4e")
 		(property "Reference" "R59"
-			(at 26.67 153.6699 0)
+			(at 31.75 153.6699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "100k"
-			(at 26.67 156.2099 0)
+			(at 31.75 156.2099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
@@ -12312,7 +12324,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:WQFN-16-1EP_3x3mm_P0.5mm_EP1.68x1.68mm_ThermalVias"
+		(property "Footprint" "Package_DFN_QFN:WQFN-16-1EP_3x3mm_P0.5mm_EP1.68x1.68mm"
 			(at 195.58 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -25115,14 +25127,15 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 36.83 152.3999 0)
+			(at 41.91 152.3999 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -25616,7 +25629,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 163.83 22.86 180)
+		(at 163.83 24.13 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -25627,7 +25640,7 @@
 		(fields_autoplaced yes)
 		(uuid "ef7981d0-7cfd-4712-8d13-a415ffe36e95")
 		(property "Reference" "R72"
-			(at 166.37 21.5899 0)
+			(at 166.37 22.8599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25638,7 +25651,7 @@
 			)
 		)
 		(property "Value" "4.7"
-			(at 166.37 24.1299 0)
+			(at 166.37 25.3999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25649,7 +25662,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 163.83 22.86 0)
+			(at 163.83 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25660,7 +25673,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 163.83 22.86 0)
+			(at 163.83 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25671,7 +25684,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 163.83 22.86 0)
+			(at 163.83 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25682,7 +25695,7 @@
 			)
 		)
 		(property "LCSC" "C25169"
-			(at 163.83 22.86 0)
+			(at 163.83 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25693,7 +25706,7 @@
 			)
 		)
 		(property "MPN" "0402WGJ047JTCE"
-			(at 163.83 22.86 0)
+			(at 163.83 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25704,7 +25717,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 163.83 22.86 0)
+			(at 163.83 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
