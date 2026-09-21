@@ -19400,7 +19400,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6310ab82-5053-4ca2-8f8b-4247586a51ac")
 		(property "Reference" "J11"
@@ -19446,6 +19446,28 @@
 			)
 		)
 		(property "Description" "small coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+			(at 176.53 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C411563"
+			(at 176.53 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "KH-IPEX-K501-29"
 			(at 176.53 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -24755,7 +24777,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -24816,7 +24838,18 @@
 				)
 			)
 		)
-		(property "KLC_S4.1" ""
+		(property "MPN" "9774050151R"
+			(at 251.46 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C5457026"
 			(at 251.46 138.43 0)
 			(hide yes)
 			(show_name no)
