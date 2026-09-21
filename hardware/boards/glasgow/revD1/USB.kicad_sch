@@ -5740,7 +5740,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25534"
+		(property "LCSC" "C25750"
 			(at 224.79 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -5751,7 +5751,7 @@
 				)
 			)
 		)
-		(property "MPN" "0402WGJ0124TCE"
+		(property "MPN" "0402WGF1203TCE"
 			(at 224.79 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -6540,7 +6540,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C185429"
+		(property "LCSC" "C113479"
 			(at 191.77 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -6551,7 +6551,7 @@
 				)
 			)
 		)
-		(property "MPN" "RC0402FR-072K87L"
+		(property "MPN" "0402WGF2871TCE"
 			(at 191.77 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -7265,7 +7265,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8589927047016308736-C851623.pdf?response-content-disposition=attachment%3B%20filename%3DC851623.pdf%3B%20filename%2A%3DUTF-8%27%27C851623.pdf&x-oss-date=20260524T222115Z&x-oss-expires=1800&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5rzGuj8u7FwxZWmN2fpnloTa9xgm5TBkTz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qZxruQFM4J7b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWgrjRep9MnSgc5lCkRRYwGs1287ugXlSQzo890KPDAEovaKCnZ2ZSfh7Y4sNknI6i%2Bfc2Se2MIkIQ%2Ff0nKKWD5sagAEVLZ0dNN6q3YOOSB9X6kKYngn4Qecl14LG8RslXmyKAL47guIqkF4EWqJOQF54WLvQKmkK5PDichoxcAz4wyY%2B9BygnI7Y0QfZa40e%2Fp8aMKghMOKl00uJRzKspcYtrccmbdf9wpWfPEGtDzOmmsxEF5ZymPzPuf5w6dfl4hk2FiAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NYFQRHVnQrWM5AXzZFgSLtQjs%2F20260524%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=e7e5476dff298cf10706224e96472dab3addfe113fb1c452d35c5a44f90f1097"
 			(at 167.64 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -7287,7 +7287,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C851623"
 			(at 167.64 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -7298,7 +7298,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "PE0402FRF470R05L"
 			(at 167.64 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -7547,7 +7547,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C2929997"
 			(at 224.79 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -7558,7 +7558,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "FRC0402F2803TS"
 			(at 224.79 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -8901,7 +8901,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "bd244e55-086d-4ccf-8623-56b6d31aeada")
 		(property "Reference" "TP14"
@@ -9196,7 +9196,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C6144275"
+		(property "LCSC" "C19170936"
 			(at 214.63 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -9207,7 +9207,7 @@
 				)
 			)
 		)
-		(property "MPN" "CC0402KRX7R9BB132"
+		(property "MPN" "C0402C132J5GACTU"
 			(at 214.63 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -9253,7 +9253,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "db045e70-2a4f-4b59-9341-862f7888d565")
 		(property "Reference" "TP15"

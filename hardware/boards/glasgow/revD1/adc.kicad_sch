@@ -12870,6 +12870,28 @@
 				)
 			)
 		)
+		(property "LCSC" "C842517"
+			(at 128.27 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "74LVC1G08Z-7"
+			(at 128.27 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "85859cc8-a1b2-4808-a027-97ec4ec6c3d7")
 		)
@@ -14528,7 +14550,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8589927047016308736-C851623.pdf?response-content-disposition=attachment%3B%20filename%3DC851623.pdf%3B%20filename%2A%3DUTF-8%27%27C851623.pdf&x-oss-date=20260524T222115Z&x-oss-expires=1800&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5rzGuj8u7FwxZWmN2fpnloTa9xgm5TBkTz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qZxruQFM4J7b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWgrjRep9MnSgc5lCkRRYwGs1287ugXlSQzo890KPDAEovaKCnZ2ZSfh7Y4sNknI6i%2Bfc2Se2MIkIQ%2Ff0nKKWD5sagAEVLZ0dNN6q3YOOSB9X6kKYngn4Qecl14LG8RslXmyKAL47guIqkF4EWqJOQF54WLvQKmkK5PDichoxcAz4wyY%2B9BygnI7Y0QfZa40e%2Fp8aMKghMOKl00uJRzKspcYtrccmbdf9wpWfPEGtDzOmmsxEF5ZymPzPuf5w6dfl4hk2FiAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NYFQRHVnQrWM5AXzZFgSLtQjs%2F20260524%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=e7e5476dff298cf10706224e96472dab3addfe113fb1c452d35c5a44f90f1097"
 			(at 198.12 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -14550,7 +14572,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C851623"
 			(at 198.12 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -14561,7 +14583,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "PE0402FRF470R05L"
 			(at 198.12 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -16218,7 +16240,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C17168"
 			(at 203.2 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -16229,7 +16251,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "0402WGF0000TCE"
 			(at 203.2 128.27 0)
 			(hide yes)
 			(show_name no)

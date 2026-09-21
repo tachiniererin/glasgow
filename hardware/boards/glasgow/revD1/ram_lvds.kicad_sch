@@ -17489,6 +17489,28 @@
 				)
 			)
 		)
+		(property "LCSC" "C3646565"
+			(at 57.15 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "BM29B0.6-4DS/2-0.35V(51)"
+			(at 57.15 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3c9ff322-45b2-4c40-b2be-d2bc9afafe5c")
 		)
@@ -17976,6 +17998,28 @@
 				)
 			)
 		)
+		(property "LCSC" "C106227"
+			(at 87.63 124.46 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RC0201FR-070RL"
+			(at 87.63 124.46 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b1d9e865-ca7f-4705-8be9-21bc9932f9f6")
 		)
@@ -18047,6 +18091,28 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 87.63 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C106227"
+			(at 87.63 81.28 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RC0201FR-070RL"
+			(at 87.63 81.28 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18895,7 +18961,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "45cc34fc-257f-4ab5-9b45-861ebfe88bab")
 		(property "Reference" "TP10"
@@ -19502,7 +19568,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "697a8e0e-5c10-4960-8b38-8c1e2b935663")
 		(property "Reference" "TP7"
@@ -19786,6 +19852,28 @@
 		)
 		(property "Description" "I2C Programmable Any-Frequency CMOS Clock Generator, QFN-16"
 			(at 147.32 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C3609352"
+			(at 147.32 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "SI5351A-B-GM1"
+			(at 147.32 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20105,6 +20193,28 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 81.28 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C106225"
+			(at 81.28 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RC0201FR-0710KL"
 			(at 81.28 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -20484,7 +20594,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "X322512MSB4SI"
 			(at 39.37 203.2 0)
 			(hide yes)
 			(show_name no)
@@ -20495,7 +20605,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C9002"
 			(at 114.3 157.48 90)
 			(hide yes)
 			(show_name no)
@@ -20536,7 +20646,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "93867ee2-ed79-4348-9ff4-9558a12ea2df")
 		(property "Reference" "TP9"
@@ -20854,6 +20964,28 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 77.47 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C106227"
+			(at 77.47 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RC0201FR-070RL"
 			(at 77.47 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -21191,17 +21323,6 @@
 				)
 			)
 		)
-		(property "KLC_S4.1" ""
-			(at 93.98 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "B3"
 			(uuid "f436b091-7b69-4a00-8317-e858c037a8be")
 		)
@@ -21292,7 +21413,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "aef6355f-f6b3-4772-b6d1-df7ee6091d8e")
 		(property "Reference" "TP11"
@@ -22253,7 +22374,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "ba33cf4f-f81f-4d65-903c-ca2d35a2fb31")
 		(property "Reference" "TP8"
@@ -24048,6 +24169,28 @@
 				)
 			)
 		)
+		(property "LCSC" "C106225"
+			(at 81.28 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RC0201FR-0710KL"
+			(at 81.28 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c4b80093-2cc6-4340-b58c-e525f8d4a481")
 		)
@@ -24679,17 +24822,6 @@
 				)
 			)
 		)
-		(property "KLC_S4.1" ""
-			(at 93.98 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "B3"
 			(uuid "64ba6bb1-3824-4a88-bc67-709ccb9d4ecc")
 		)
@@ -24939,6 +25071,28 @@
 				)
 			)
 		)
+		(property "LCSC" "C106227"
+			(at 77.47 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RC0201FR-070RL"
+			(at 77.47 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b61da403-6086-4987-b1ec-69a85e79fadb")
 		)
@@ -25078,7 +25232,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "f2c81945-62cf-44f6-8bf2-8229a9fabb68")
 		(property "Reference" "TP28"
@@ -25092,7 +25246,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "DQ1"
+		(property "Value" "GND"
 			(at 133.35 85.0899 0)
 			(show_name no)
 			(do_not_autoplace no)

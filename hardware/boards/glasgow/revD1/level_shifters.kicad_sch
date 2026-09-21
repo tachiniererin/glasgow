@@ -13638,7 +13638,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "13eccaac-c611-4f36-8b03-f00cb5b0188a")
 		(property "Reference" "TP17"
@@ -21058,7 +21058,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "8e84846f-90c9-4307-975d-27f7afe10348")
 		(property "Reference" "TP21"
@@ -23061,7 +23061,7 @@
 				)
 			)
 		)
-		(property "Value" "0R"
+		(property "Value" "0"
 			(at 140.97 114.3 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23105,6 +23105,28 @@
 			)
 		)
 		(property "KLC_S4.1" ""
+			(at 140.97 116.84 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C17168"
+			(at 140.97 116.84 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0402WGF0000TCE"
 			(at 140.97 116.84 90)
 			(hide yes)
 			(show_name no)
@@ -25482,7 +25504,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25769"
+		(property "LCSC" "C1152"
 			(at 81.28 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -25493,7 +25515,7 @@
 				)
 			)
 		)
-		(property "MPN" "0402WGF2402TCE"
+		(property "MPN" "RC-02K243JT"
 			(at 81.28 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -27627,6 +27649,28 @@
 			)
 		)
 		(property "KLC_S4.1" ""
+			(at 153.67 116.84 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C106225"
+			(at 153.67 116.84 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RC0201FR-0710KL"
 			(at 153.67 116.84 90)
 			(hide yes)
 			(show_name no)

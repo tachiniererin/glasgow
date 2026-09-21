@@ -6212,7 +6212,7 @@
 		)
 		(uuid "47949062-1ddd-47aa-b217-61cb0724db7a")
 	)
-	(text "Potential alternative:\nNCA6416, PCAL6416"
+	(text "Potential alternative:\nNCA6416, PCA6416A"
 		(exclude_from_sim no)
 		(at 144.78 88.9 0)
 		(effects
@@ -6222,6 +6222,17 @@
 			(justify left)
 		)
 		(uuid "706628e9-4c81-427a-8eab-2832e6932f9f")
+	)
+	(text "Swapped NXP with TI part\nfor availability."
+		(exclude_from_sim no)
+		(at 154.94 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 204 102 0 1)
+			)
+		)
+		(uuid "7b87f550-7e50-4c26-a274-4cb290e74c75")
 	)
 	(text "INA D: 1001111"
 		(exclude_from_sim no)
@@ -13552,7 +13563,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PCA6416APW"
+		(property "Value" "TCA6416APW"
 			(at 182.4833 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13574,7 +13585,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.nxp.com/docs/en/data-sheet/PCAL6416A.pdf"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tca6416a.pdf"
 			(at 180.34 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -13596,7 +13607,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2669733"
+		(property "LCSC" "C130203"
 			(at 180.34 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -13607,7 +13618,7 @@
 				)
 			)
 		)
-		(property "MPN" "PCA6416APW,118"
+		(property "MPN" "TCA6416APWR"
 			(at 180.34 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -15784,7 +15795,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PCA6416APW"
+		(property "Value" "TCA6416APW"
 			(at 182.4833 154.94 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15806,7 +15817,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.nxp.com/docs/en/data-sheet/PCAL6416A.pdf"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tca6416a.pdf"
 			(at 180.34 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -15828,7 +15839,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2669733"
+		(property "LCSC" "C130203"
 			(at 180.34 127 0)
 			(hide yes)
 			(show_name no)
@@ -15839,7 +15850,7 @@
 				)
 			)
 		)
-		(property "MPN" "PCA6416APW,118"
+		(property "MPN" "TCA6416APWR"
 			(at 180.34 127 0)
 			(hide yes)
 			(show_name no)
@@ -15998,6 +16009,28 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 153.67 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C17168"
+			(at 153.67 43.18 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0402WGF0000TCE"
+			(at 153.67 43.18 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17311,6 +17344,28 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 153.67 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C17168"
+			(at 153.67 111.76 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0402WGF0000TCE"
+			(at 153.67 111.76 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

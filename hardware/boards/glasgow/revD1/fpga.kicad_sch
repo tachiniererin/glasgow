@@ -13879,6 +13879,39 @@
 				)
 			)
 		)
+		(property "MPN" ""
+			(at 270.51 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C7430445"
+			(at 270.51 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN_Alt" "ZX-SH1.0-3PWT"
+			(at 270.51 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "MP"
 			(uuid "c702b7f7-551e-4450-aff8-162620b36daa")
 		)
@@ -14312,7 +14345,7 @@
 				)
 			)
 		)
-		(property "Value" "2k2"
+		(property "Value" "2.2k"
 			(at 151.13 151.13 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15352,7 +15385,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "0402WGF1000TCE"
 			(at 132.08 317.5 0)
 			(hide yes)
 			(show_name no)
@@ -15363,7 +15396,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C25076"
 			(at 196.85 54.61 90)
 			(hide yes)
 			(show_name no)
@@ -16319,7 +16352,7 @@
 				)
 			)
 		)
-		(property "Value" "2k2"
+		(property "Value" "2.2k"
 			(at 151.13 186.69 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19731,7 +19764,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "0402WGF1000TCE"
 			(at -2.54 327.66 0)
 			(hide yes)
 			(show_name no)
@@ -19742,7 +19775,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C25076"
 			(at 62.23 64.77 90)
 			(hide yes)
 			(show_name no)
@@ -21690,7 +21723,7 @@
 				)
 			)
 		)
-		(property "Value" "2k2"
+		(property "Value" "2.2k"
 			(at 151.13 168.91 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22146,6 +22179,28 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 160.02 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C106227"
+			(at 160.02 138.43 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RC0201FR-070RL"
+			(at 160.02 138.43 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23149,7 +23204,7 @@
 				)
 			)
 		)
-		(property "Value" "0R"
+		(property "Value" "0"
 			(at 49.53 67.31 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23170,7 +23225,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8589927047016308736-C851623.pdf?response-content-disposition=attachment%3B%20filename%3DC851623.pdf%3B%20filename%2A%3DUTF-8%27%27C851623.pdf&x-oss-date=20260524T222115Z&x-oss-expires=1800&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5rzGuj8u7FwxZWmN2fpnloTa9xgm5TBkTz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qZxruQFM4J7b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWgrjRep9MnSgc5lCkRRYwGs1287ugXlSQzo890KPDAEovaKCnZ2ZSfh7Y4sNknI6i%2Bfc2Se2MIkIQ%2Ff0nKKWD5sagAEVLZ0dNN6q3YOOSB9X6kKYngn4Qecl14LG8RslXmyKAL47guIqkF4EWqJOQF54WLvQKmkK5PDichoxcAz4wyY%2B9BygnI7Y0QfZa40e%2Fp8aMKghMOKl00uJRzKspcYtrccmbdf9wpWfPEGtDzOmmsxEF5ZymPzPuf5w6dfl4hk2FiAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NYFQRHVnQrWM5AXzZFgSLtQjs%2F20260524%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=e7e5476dff298cf10706224e96472dab3addfe113fb1c452d35c5a44f90f1097"
 			(at 49.53 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -23193,6 +23248,28 @@
 			)
 		)
 		(property "KLC_S4.1" ""
+			(at 49.53 62.23 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C851623"
+			(at 49.53 62.23 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "PE0402FRF470R05L"
 			(at 49.53 62.23 90)
 			(hide yes)
 			(show_name no)
@@ -24469,7 +24546,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2k2"
+		(property "Value" "2.2k"
 			(at 195.58 64.7699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26674,7 +26751,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "0402WGF1000TCE"
 			(at 191.77 -201.93 0)
 			(hide yes)
 			(show_name no)
@@ -26685,7 +26762,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C25076"
 			(at 256.54 60.96 90)
 			(hide yes)
 			(show_name no)
@@ -27018,7 +27095,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2k2"
+		(property "Value" "2.2k"
 			(at 57.15 74.9299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27305,7 +27382,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "0402WGF1000TCE"
 			(at 165.1 317.5 0)
 			(hide yes)
 			(show_name no)
@@ -27316,7 +27393,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C25076"
 			(at 229.87 54.61 90)
 			(hide yes)
 			(show_name no)

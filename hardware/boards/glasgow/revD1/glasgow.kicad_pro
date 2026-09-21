@@ -709,6 +709,12 @@
           "label": "KLC_S4.1",
           "name": "KLC_S4.1",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MPN_Alt",
+          "name": "MPN_Alt",
+          "show": false
         }
       ],
       "filter_string": "",

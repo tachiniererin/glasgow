@@ -10667,7 +10667,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "1a76d996-005a-4d8d-9a9d-87e4eeb39c26")
 		(property "Reference" "TP13"
@@ -11506,7 +11506,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C620443"
 			(at 240.03 59.69 90)
 			(hide yes)
 			(show_name no)
@@ -11517,7 +11517,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "0201WMF470JTEE"
 			(at 240.03 59.69 90)
 			(hide yes)
 			(show_name no)
@@ -11621,7 +11621,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C620443"
 			(at 240.03 69.85 90)
 			(hide yes)
 			(show_name no)
@@ -11632,7 +11632,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "0201WMF470JTEE"
 			(at 240.03 69.85 90)
 			(hide yes)
 			(show_name no)
@@ -11881,7 +11881,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "40dffc61-ca91-44a8-a57b-f6c6a2663269")
 		(property "Reference" "TP26"
@@ -12097,7 +12097,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C620443"
 			(at 240.03 64.77 90)
 			(hide yes)
 			(show_name no)
@@ -12108,7 +12108,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "0201WMF470JTEE"
 			(at 240.03 64.77 90)
 			(hide yes)
 			(show_name no)
@@ -12481,7 +12481,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "625c6784-89ad-41f0-be9b-0dcaea973df9")
 		(property "Reference" "TP16"
@@ -12618,7 +12618,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C620443"
 			(at 240.03 57.15 90)
 			(hide yes)
 			(show_name no)
@@ -12629,7 +12629,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "0201WMF470JTEE"
 			(at 240.03 57.15 90)
 			(hide yes)
 			(show_name no)
@@ -15474,7 +15474,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C620443"
 			(at 240.03 72.39 90)
 			(hide yes)
 			(show_name no)
@@ -15485,7 +15485,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "0201WMF470JTEE"
 			(at 240.03 72.39 90)
 			(hide yes)
 			(show_name no)
@@ -15716,7 +15716,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C620443"
 			(at 240.03 67.31 90)
 			(hide yes)
 			(show_name no)
@@ -15727,7 +15727,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "0201WMF470JTEE"
 			(at 240.03 67.31 90)
 			(hide yes)
 			(show_name no)
@@ -15774,7 +15774,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "b8893b6d-ae4b-40c4-b33e-4dddb3b5aadd")
 		(property "Reference" "TP25"
@@ -16433,7 +16433,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C52923"
 			(at 60.96 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -16502,7 +16502,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8589927047016308736-C851623.pdf?response-content-disposition=attachment%3B%20filename%3DC851623.pdf%3B%20filename%2A%3DUTF-8%27%27C851623.pdf&x-oss-date=20260524T222115Z&x-oss-expires=1800&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5rzGuj8u7FwxZWmN2fpnloTa9xgm5TBkTz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qZxruQFM4J7b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWgrjRep9MnSgc5lCkRRYwGs1287ugXlSQzo890KPDAEovaKCnZ2ZSfh7Y4sNknI6i%2Bfc2Se2MIkIQ%2Ff0nKKWD5sagAEVLZ0dNN6q3YOOSB9X6kKYngn4Qecl14LG8RslXmyKAL47guIqkF4EWqJOQF54WLvQKmkK5PDichoxcAz4wyY%2B9BygnI7Y0QfZa40e%2Fp8aMKghMOKl00uJRzKspcYtrccmbdf9wpWfPEGtDzOmmsxEF5ZymPzPuf5w6dfl4hk2FiAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NYFQRHVnQrWM5AXzZFgSLtQjs%2F20260524%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=e7e5476dff298cf10706224e96472dab3addfe113fb1c452d35c5a44f90f1097"
 			(at 152.4 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -16524,7 +16524,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C851623"
 			(at 152.4 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -16535,7 +16535,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "PE0402FRF470R05L"
 			(at 152.4 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -16581,7 +16581,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "d7939f10-5b74-4941-9e75-fd9f1c207758")
 		(property "Reference" "TP27"
@@ -17049,7 +17049,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C52923"
 			(at 123.19 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -17479,7 +17479,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C620443"
 			(at 240.03 54.61 90)
 			(hide yes)
 			(show_name no)
@@ -17490,18 +17490,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
-			(at 240.03 54.61 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
+		(property "MPN" "0201WMF470JTEE"
 			(at 240.03 54.61 90)
 			(hide yes)
 			(show_name no)
@@ -17719,7 +17708,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C620443"
 			(at 240.03 62.23 90)
 			(hide yes)
 			(show_name no)
@@ -17730,7 +17719,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "0201WMF470JTEE"
 			(at 240.03 62.23 90)
 			(hide yes)
 			(show_name no)
@@ -17834,7 +17823,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C25879"
 			(at 157.48 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -17845,7 +17834,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0402FR-132K2L"
 			(at 157.48 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -17891,7 +17880,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "f9d690c5-a0a4-4fa0-9179-930736799e6f")
 		(property "Reference" "TP12"

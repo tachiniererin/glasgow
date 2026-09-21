@@ -11402,7 +11402,7 @@
 				)
 			)
 		)
-		(property "Value" "0R"
+		(property "Value" "0"
 			(at 31.75 134.62 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11446,6 +11446,28 @@
 			)
 		)
 		(property "KLC_S4.1" ""
+			(at 31.75 137.16 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C17168"
+			(at 31.75 137.16 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0402WGF0000TCE"
 			(at 31.75 137.16 90)
 			(hide yes)
 			(show_name no)
@@ -18033,7 +18055,7 @@
 				)
 			)
 		)
-		(property "MPN" "TLV62569PDRL"
+		(property "MPN" "TLV62569PDRLR"
 			(at 114.3 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -18160,7 +18182,7 @@
 				)
 			)
 		)
-		(property "MPN" "TLV62569PDRL"
+		(property "MPN" "TLV62569PDRLR"
 			(at 44.45 114.3 0)
 			(hide yes)
 			(show_name no)
