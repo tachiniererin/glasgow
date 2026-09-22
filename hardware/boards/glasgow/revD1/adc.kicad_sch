@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "NAFE ADC and protections")
-		(date "2026-05-26")
-		(rev "D0")
+		(date "2026-09-22")
+		(rev "D1")
 		(company "ln / Fully Automated")
 		(comment 1 "Glasgow Debug Tool")
 	)
@@ -6960,6 +6960,16 @@
 	)
 	(wire
 		(pts
+			(xy 195.58 109.22) (xy 196.85 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75ff49bc-5137-4c90-93e7-d7e2594eb670")
+	)
+	(wire
+		(pts
 			(xy 40.64 116.84) (xy 40.64 118.11)
 		)
 		(stroke
@@ -8197,6 +8207,16 @@
 			(type default)
 		)
 		(uuid "cddab1d3-9650-499f-a912-cc2ac9f06fe1")
+	)
+	(wire
+		(pts
+			(xy 196.85 107.95) (xy 196.85 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf36d608-f2ab-4b93-bfeb-a1d0b6702a0f")
 	)
 	(wire
 		(pts
@@ -9535,7 +9555,7 @@
 	)
 	(hierarchical_label "CLK_{OUT}"
 		(shape output)
-		(at 190.5 109.22 0)
+		(at 196.85 107.95 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12377,6 +12397,108 @@
 			(project "glasgow"
 				(path "/87a94d88-8a34-4311-9666-80951c15f2c0/4bfe585e-be8b-4378-9b4e-d06fcfec5f3c"
 					(reference "D21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 193.04 109.22 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "31de9cab-09b3-4fdc-99fa-5e31712cd7d2")
+		(property "Reference" "R26"
+			(at 193.04 104.14 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "47"
+			(at 193.04 106.68 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 193.04 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 193.04 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 193.04 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C620443"
+			(at 193.04 109.22 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0201WMF470JTEE"
+			(at 193.04 109.22 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "358cb535-088b-4f9c-9f01-a5ca0169ff17")
+		)
+		(pin "2"
+			(uuid "91812425-a2ee-4aa2-a34f-9578de136ef7")
+		)
+		(instances
+			(project "glasgow"
+				(path "/87a94d88-8a34-4311-9666-80951c15f2c0/4bfe585e-be8b-4378-9b4e-d06fcfec5f3c"
+					(reference "R26")
 					(unit 1)
 				)
 			)

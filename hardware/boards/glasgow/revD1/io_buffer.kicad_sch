@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "FPGA - IO Banks & Port Expander")
-		(date "2026-05-26")
-		(rev "D0")
+		(date "2026-09-22")
+		(rev "D1")
 		(company "ln / Fully Automated")
 		(comment 1 "Glasgow Debug Tool")
 	)

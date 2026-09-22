@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Power Supplies")
-		(date "2026-05-26")
-		(rev "D0")
+		(date "2026-09-22")
+		(rev "D1")
 		(company "ln / Fully Automated")
 		(comment 1 "Glasgow Debug Tool")
 	)
@@ -5935,7 +5935,7 @@
 		)
 		(uuid "16fd0892-f415-4015-bc88-a4ea2d5bc6c2")
 	)
-	(text "PG_{VBUS} UVLO is after the eFuse\nso that even if the device is\npowered externally it should still\npower up correctly."
+	(text "PG_{VBUS} needs bus power to\nstart up and does not set PG\nhigh even if the 5V rail is\nstable but bus voltage is not\npresent."
 		(exclude_from_sim no)
 		(at 15.875 163.83 0)
 		(effects
