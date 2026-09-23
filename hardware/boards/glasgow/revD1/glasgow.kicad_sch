@@ -10280,7 +10280,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.everlighteurope.com/custom/files/datasheets/DSE-0014128.pdf"
 			(at 48.26 158.75 90)
 			(hide yes)
 			(show_name no)
@@ -10325,17 +10325,6 @@
 			)
 		)
 		(property "LCSC" "C2986060"
-			(at 48.26 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
 			(at 48.26 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -12025,7 +12014,7 @@
 				)
 			)
 		)
-		(property "Value" "22k"
+		(property "Value" "1.1k"
 			(at 39.37 148.59 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12079,7 +12068,7 @@
 				)
 			)
 		)
-		(property "MPN" "0402WGF2202TCE"
+		(property "MPN" "0402WGF1101TCE"
 			(at 77.47 -100.33 0)
 			(hide yes)
 			(show_name no)
@@ -12090,18 +12079,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25768"
-			(at 39.37 151.13 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
+		(property "LCSC" "C25860"
 			(at 39.37 151.13 90)
 			(hide yes)
 			(show_name no)
@@ -13329,7 +13307,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C2290.pdf"
 			(at 48.26 135.89 90)
 			(hide yes)
 			(show_name no)
@@ -13374,17 +13352,6 @@
 			)
 		)
 		(property "LCSC" "C2290"
-			(at 48.26 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
 			(at 48.26 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -13933,7 +13900,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C84269.pdf"
 			(at 48.26 151.13 90)
 			(hide yes)
 			(show_name no)
@@ -13978,17 +13945,6 @@
 			)
 		)
 		(property "LCSC" "C84269"
-			(at 48.26 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
 			(at 48.26 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -14798,7 +14754,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.everlighteurope.com/custom/files/datasheets/DSE-0025772.pdf"
 			(at 48.26 128.27 90)
 			(hide yes)
 			(show_name no)
@@ -15382,7 +15338,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.everlighteurope.com/custom/files/datasheets/DSE-0014124.pdf"
 			(at 48.26 143.51 90)
 			(hide yes)
 			(show_name no)
@@ -16669,7 +16625,7 @@
 				)
 			)
 		)
-		(property "Value" "13k"
+		(property "Value" "1.1k"
 			(at 39.37 156.21 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16723,7 +16679,7 @@
 				)
 			)
 		)
-		(property "MPN" "0402WGF1302TCE"
+		(property "MPN" "0402WGF1101TCE"
 			(at 82.55 -92.71 0)
 			(hide yes)
 			(show_name no)
@@ -16734,18 +16690,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25754"
-			(at 39.37 158.75 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
+		(property "LCSC" "C25860"
 			(at 39.37 158.75 90)
 			(hide yes)
 			(show_name no)
@@ -17207,7 +17152,7 @@
 				)
 			)
 		)
-		(property "Value" "22k"
+		(property "Value" "1.1k"
 			(at 39.37 125.73 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17261,7 +17206,7 @@
 				)
 			)
 		)
-		(property "MPN" "0402WGF2202TCE"
+		(property "MPN" "0402WGF1101TCE"
 			(at 62.23 -123.19 0)
 			(hide yes)
 			(show_name no)
@@ -17272,18 +17217,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25768"
-			(at 39.37 128.27 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
+		(property "LCSC" "C25860"
 			(at 39.37 128.27 90)
 			(hide yes)
 			(show_name no)
@@ -17955,7 +17889,7 @@
 				)
 			)
 		)
-		(property "Value" "2.2k"
+		(property "Value" "4.7k"
 			(at 39.37 133.35 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18009,7 +17943,7 @@
 				)
 			)
 		)
-		(property "MPN" "RC0402FR-132K2L"
+		(property "MPN" "0402WGF4701TCE"
 			(at 67.31 -115.57 0)
 			(hide yes)
 			(show_name no)
@@ -18020,18 +17954,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25879"
-			(at 39.37 135.89 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
+		(property "LCSC" "C25900"
 			(at 39.37 135.89 90)
 			(hide yes)
 			(show_name no)

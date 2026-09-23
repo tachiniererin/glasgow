@@ -7556,18 +7556,6 @@
 		)
 		(uuid "05264892-7446-45d3-abcf-3fb242e44b3a")
 	)
-	(text "TODO: re-do calculations based on luminosity"
-		(exclude_from_sim no)
-		(at 123.698 144.78 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 204 102 0 1)
-			)
-			(justify left)
-		)
-		(uuid "07584b22-c3a7-401b-84f5-c6acde0b03e5")
-	)
 	(text "use internal pu"
 		(exclude_from_sim no)
 		(at 142.24 69.85 0)
@@ -16703,7 +16691,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C51933299.pdf"
 			(at 157.48 162.56 90)
 			(hide yes)
 			(show_name no)
@@ -16748,17 +16736,6 @@
 			)
 		)
 		(property "LCSC" "C51933299"
-			(at 157.48 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
 			(at 157.48 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -18438,7 +18415,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C51933299.pdf"
 			(at 157.48 180.34 90)
 			(hide yes)
 			(show_name no)
@@ -18483,17 +18460,6 @@
 			)
 		)
 		(property "LCSC" "C51933299"
-			(at 157.48 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
 			(at 157.48 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -18562,7 +18528,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.everlighteurope.com/custom/files/datasheets/DSE-0014124.pdf"
 			(at 157.48 189.23 90)
 			(hide yes)
 			(show_name no)
@@ -18607,17 +18573,6 @@
 			)
 		)
 		(property "LCSC" "C2986058"
-			(at 157.48 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
 			(at 157.48 189.23 0)
 			(hide yes)
 			(show_name no)
@@ -19616,7 +19571,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.everlighteurope.com/custom/files/datasheets/DSE-0014124.pdf"
 			(at 157.48 153.67 90)
 			(hide yes)
 			(show_name no)
@@ -19661,17 +19616,6 @@
 			)
 		)
 		(property "LCSC" "C2986058"
-			(at 157.48 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
 			(at 157.48 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -20037,7 +19981,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C2290.pdf"
 			(at 157.48 171.45 90)
 			(hide yes)
 			(show_name no)
@@ -20082,17 +20026,6 @@
 			)
 		)
 		(property "LCSC" "C2290"
-			(at 157.48 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
 			(at 157.48 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -21723,7 +21656,7 @@
 				)
 			)
 		)
-		(property "Value" "2.2k"
+		(property "Value" "4.7k"
 			(at 151.13 168.91 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21766,7 +21699,7 @@
 				)
 			)
 		)
-		(property "MPN" "RC0402FR-132K2L"
+		(property "MPN" "0402WGF4701TCE"
 			(at 184.15 -80.01 0)
 			(hide yes)
 			(show_name no)
@@ -21777,7 +21710,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25879"
+		(property "LCSC" "C25900"
 			(at 151.13 171.45 90)
 			(hide yes)
 			(show_name no)
