@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "FX2 & Power Input")
-		(date "2026-09-22")
+		(date "2026-09-23")
 		(rev "D1")
 		(company "ln / Fully Automated")
 		(comment 1 "Glasgow Debug Tool")
@@ -4051,6 +4051,12 @@
 		(uuid "191dd329-38ee-4178-b91d-18e5d8444f43")
 	)
 	(junction
+		(at 223.52 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2705aff7-dd0d-41cd-b677-c573e49dc631")
+	)
+	(junction
 		(at 95.25 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4085,6 +4091,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3f24d45d-af06-4dee-8c16-bfa1aadb9348")
+	)
+	(junction
+		(at 215.9 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "48d2bb91-d54c-449c-8802-733acd4a4adc")
 	)
 	(junction
 		(at 157.48 99.06)
@@ -4187,6 +4199,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c8b6bb5b-8520-49eb-935e-10032a92abc3")
+	)
+	(junction
+		(at 208.28 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ca309cb0-3ef7-465e-978a-4c5c1121e8ab")
 	)
 	(junction
 		(at 85.09 53.34)
@@ -4779,6 +4797,16 @@
 	)
 	(wire
 		(pts
+			(xy 208.28 153.67) (xy 208.28 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15adce75-49e3-48e2-9db4-6af20a090970")
+	)
+	(wire
+		(pts
 			(xy 168.91 58.42) (xy 154.94 58.42)
 		)
 		(stroke
@@ -4876,6 +4904,16 @@
 			(type default)
 		)
 		(uuid "1fff8dca-afa0-4328-bf9a-ca2090907c65")
+	)
+	(wire
+		(pts
+			(xy 223.52 153.67) (xy 231.14 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "204befbc-3666-4e07-bf2d-7874851ea4c2")
 	)
 	(wire
 		(pts
@@ -5009,6 +5047,16 @@
 	)
 	(wire
 		(pts
+			(xy 215.9 151.13) (xy 215.9 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "313e26ff-8cad-43dc-9760-e0a23c0e6df2")
+	)
+	(wire
+		(pts
 			(xy 39.37 30.48) (xy 39.37 31.75)
 		)
 		(stroke
@@ -5096,6 +5144,16 @@
 			(type default)
 		)
 		(uuid "35874c44-1e9d-48e2-8f2a-1aba5c41ab0a")
+	)
+	(wire
+		(pts
+			(xy 208.28 151.13) (xy 208.28 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35b7c67a-5cfd-4ef4-8896-ff894e72542f")
 	)
 	(wire
 		(pts
@@ -5346,6 +5404,16 @@
 			(type default)
 		)
 		(uuid "4639e37f-789d-4281-aeb7-bc142b90ac56")
+	)
+	(wire
+		(pts
+			(xy 223.52 151.13) (xy 223.52 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46a44088-5fd9-49ac-9731-76604464756b")
 	)
 	(wire
 		(pts
@@ -6369,6 +6437,16 @@
 	)
 	(wire
 		(pts
+			(xy 208.28 153.67) (xy 215.9 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e7fe547-9735-4dc2-9c49-921c334854a4")
+	)
+	(wire
+		(pts
 			(xy 243.84 154.94) (xy 243.84 156.21)
 		)
 		(stroke
@@ -7279,6 +7357,16 @@
 	)
 	(wire
 		(pts
+			(xy 215.9 153.67) (xy 223.52 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfd9e3ae-89a9-40df-b778-ad1e2e5640e0")
+	)
+	(wire
+		(pts
 			(xy 226.06 74.93) (xy 248.92 74.93)
 		)
 		(stroke
@@ -7586,6 +7674,16 @@
 			(type default)
 		)
 		(uuid "fc9d8ff4-067b-4608-a927-1bd19f0dbb00")
+	)
+	(wire
+		(pts
+			(xy 231.14 151.13) (xy 231.14 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd901c5c-1db8-49fc-9a72-9767f04735b7")
 	)
 	(bus
 		(pts
@@ -10060,6 +10158,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 231.14 151.13 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "090940be-a000-4cbf-9179-5eb3512b77d4")
+		(property "Reference" "TP32"
+			(at 232.41 151.1299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GND"
+			(at 232.41 152.3999 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Automated:TestPoint_Pad_D0.5mm"
+			(at 236.22 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 236.22 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 231.14 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "85a69bd2-c8ac-48ba-b379-a7878ae03431")
+		)
+		(instances
+			(project "glasgow"
+				(path "/87a94d88-8a34-4311-9666-80951c15f2c0"
+					(reference "TP32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED_Small")
 		(at 48.26 158.75 0)
 		(mirror y)
@@ -11440,6 +11618,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 208.28 154.94 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3704c04b-1983-4a4a-afd6-524c70b47aff")
+		(property "Reference" "#PWR0430"
+			(at 208.28 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 208.28 160.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 208.28 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 208.28 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "37bec9e9-8d9f-49a2-832e-988654097c5f")
+		)
+		(instances
+			(project "glasgow"
+				(path "/87a94d88-8a34-4311-9666-80951c15f2c0"
+					(reference "#PWR0430")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 240.03 59.69 90)
 		(unit 1)
@@ -12025,6 +12281,86 @@
 			(project "glasgow"
 				(path "/87a94d88-8a34-4311-9666-80951c15f2c0"
 					(reference "#PWR0407")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 215.9 151.13 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "429715a7-94a0-4a04-a2d2-945352400ff4")
+		(property "Reference" "TP30"
+			(at 217.17 151.1299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GND"
+			(at 217.17 152.3999 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Automated:TestPoint_Pad_D0.5mm"
+			(at 220.98 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 220.98 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 215.9 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9a8140c6-7e56-488c-9ce8-594deea933ff")
+		)
+		(instances
+			(project "glasgow"
+				(path "/87a94d88-8a34-4311-9666-80951c15f2c0"
+					(reference "TP30")
 					(unit 1)
 				)
 			)
@@ -16231,6 +16567,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 223.52 151.13 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "ca0e6d67-ba52-4553-9bbc-ecfc24b4d846")
+		(property "Reference" "TP31"
+			(at 224.79 151.1299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GND"
+			(at 224.79 152.3999 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Automated:TestPoint_Pad_D0.5mm"
+			(at 228.6 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 228.6 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 223.52 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2e4da0d7-6e7f-4920-836b-2ce7f8ce7999")
+		)
+		(instances
+			(project "glasgow"
+				(path "/87a94d88-8a34-4311-9666-80951c15f2c0"
+					(reference "TP31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 39.37 158.75 90)
 		(mirror x)
@@ -18135,6 +18551,86 @@
 			(project "glasgow"
 				(path "/87a94d88-8a34-4311-9666-80951c15f2c0"
 					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 208.28 151.13 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "ff1dcdc4-917d-43b6-b4c3-1d8d165399a1")
+		(property "Reference" "TP29"
+			(at 209.55 151.1299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GND"
+			(at 209.55 152.3999 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Automated:TestPoint_Pad_D0.5mm"
+			(at 213.36 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 213.36 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 208.28 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ce23ccc0-0268-4ccd-94be-312977120d48")
+		)
+		(instances
+			(project "glasgow"
+				(path "/87a94d88-8a34-4311-9666-80951c15f2c0"
+					(reference "TP29")
 					(unit 1)
 				)
 			)
